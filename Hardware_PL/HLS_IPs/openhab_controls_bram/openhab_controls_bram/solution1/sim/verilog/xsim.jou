@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Mar 24 11:02:16 2021
+# Process ID: 6702
+# Current directory: /home/jaswanth/workspace/hls_ip/openhab_controls_bram/openhab_controls_bram/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/openhab_controls/xsim_script.tcl}
+# Log file: /home/jaswanth/workspace/hls_ip/openhab_controls_bram/openhab_controls_bram/solution1/sim/verilog/xsim.log
+# Journal file: /home/jaswanth/workspace/hls_ip/openhab_controls_bram/openhab_controls_bram/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/openhab_controls/xsim_script.tcl
+source openhab_controls.tcl

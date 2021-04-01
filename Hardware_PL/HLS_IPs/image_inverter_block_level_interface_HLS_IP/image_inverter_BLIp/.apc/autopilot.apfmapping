@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="image_inverter_BLIp.cpp" path="/home/jaswanth/WORK/DAC_SDC/image_inverter_block_level_interface/image_inverter_BLIp.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_image_inverter_BLIp.cpp" path="/home/jaswanth/WORK/DAC_SDC/image_inverter_block_level_interface/tb_image_inverter_BLIp.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

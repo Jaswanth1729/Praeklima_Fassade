@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"image_inverter1": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/./sim/autowrap/testbench/core.cpp_pre.cpp.tb.cpp

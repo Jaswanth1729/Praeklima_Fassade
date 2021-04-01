@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="pp_core.cpp" path="/home/jaswanth/workspace/hls_ip/parallel_processing_1/pp_core.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb_pp_core.cpp" path="/home/jaswanth/workspace/hls_ip/parallel_processing_1/tb_pp_core.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

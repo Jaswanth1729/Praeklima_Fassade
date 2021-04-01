@@ -1,0 +1,2 @@
+regslice_core
+openhab_controls

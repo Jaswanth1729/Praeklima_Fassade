@@ -1,0 +1,153 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "/home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling tb_pp_core_2.cpp_pre.cpp.tb.cpp
+   Compiling pp_core_2.cpp_pre.cpp.tb.cpp
+   Compiling apatb_pp_2.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+Value is 0
+Value is 5
+Value is 10
+Value is 15
+Value is 20
+Value is 25
+Value is 30
+Value is 35
+Value is 40
+Value is 45
+Value is 50
+Value is 55
+Value is 60
+Value is 65
+Value is 70
+Value is 75
+Value is 80
+Value is 85
+Value is 90
+Value is 95
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_pp_2_top glbl -prj pp_2.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s pp_2 
+Multi-threading is on. Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/pp_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pp_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/AESL_axi_s_inStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_inStream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/AESL_axi_s_outStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_outStream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/pp_2.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_pp_2_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/regslice_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regslice_both
+INFO: [VRFC 10-311] analyzing module regslice_forward
+INFO: [VRFC 10-311] analyzing module regslice_reverse
+INFO: [VRFC 10-311] analyzing module regslice_both_w1
+INFO: [VRFC 10-311] analyzing module regslice_forward_w1
+INFO: [VRFC 10-311] analyzing module regslice_reverse_w1
+INFO: [VRFC 10-311] analyzing module ibuf
+INFO: [VRFC 10-311] analyzing module obuf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ibuf(W=33)
+Compiling module xil_defaultlib.obuf(W=33)
+Compiling module xil_defaultlib.regslice_both_default
+Compiling module xil_defaultlib.ibuf(W=5)
+Compiling module xil_defaultlib.obuf(W=5)
+Compiling module xil_defaultlib.regslice_both(DataWidth=4)
+Compiling module xil_defaultlib.ibuf(W=3)
+Compiling module xil_defaultlib.obuf(W=3)
+Compiling module xil_defaultlib.regslice_both(DataWidth=2)
+Compiling module xil_defaultlib.ibuf(W=2)
+Compiling module xil_defaultlib.obuf(W=2)
+Compiling module xil_defaultlib.regslice_both(DataWidth=1)
+Compiling module xil_defaultlib.ibuf(W=6)
+Compiling module xil_defaultlib.obuf(W=6)
+Compiling module xil_defaultlib.regslice_both(DataWidth=5)
+Compiling module xil_defaultlib.ibuf(W=7)
+Compiling module xil_defaultlib.obuf(W=7)
+Compiling module xil_defaultlib.regslice_both(DataWidth=6)
+Compiling module xil_defaultlib.pp_2
+Compiling module xil_defaultlib.fifo(DEPTH=20,WIDTH=32)
+Compiling module xil_defaultlib.fifo(DEPTH=20,WIDTH=4)
+Compiling module xil_defaultlib.fifo(DEPTH=20,WIDTH=2)
+Compiling module xil_defaultlib.fifo(DEPTH=20,WIDTH=1)
+Compiling module xil_defaultlib.fifo(DEPTH=20,WIDTH=5)
+Compiling module xil_defaultlib.fifo(DEPTH=20,WIDTH=6)
+Compiling module xil_defaultlib.AESL_axi_s_inStream
+Compiling module xil_defaultlib.AESL_axi_s_outStream
+Compiling module xil_defaultlib.apatb_pp_2_top
+Compiling module work.glbl
+Built simulation snapshot pp_2
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/xsim.dir/pp_2/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/xsim.dir/pp_2/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Mar 31 14:59:59 2021. For additional details about this file, please refer to the WebTalk help file at /home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Mar 31 14:59:59 2021...
+
+****** xsim v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/pp_2/xsim_script.tcl
+# xsim {pp_2} -autoloadwcfg -tclbatch {pp_2.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source pp_2.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "375000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 415 ns : File "/home/jaswanth/workspace/hls_ip/parallel_processing_2/parallel_processing_2/solution1/sim/verilog/pp_2.autotb.v" Line 357
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Mar 31 15:00:11 2021...
+Value is 0
+Value is 5
+Value is 10
+Value is 15
+Value is 20
+Value is 25
+Value is 30
+Value is 35
+Value is 40
+Value is 45
+Value is 50
+Value is 55
+Value is 60
+Value is 65
+Value is 70
+Value is 75
+Value is 80
+Value is 85
+Value is 90
+Value is 95
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.

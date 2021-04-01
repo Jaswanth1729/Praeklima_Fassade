@@ -1,0 +1,155 @@
+
+
+================================================================
+== Vivado HLS Report for 'openhab_controls_bram'
+================================================================
+* Date:           Wed Mar 24 11:09:54 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        openhab_controls_bram
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 2.691 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       21|       21| 0.210 us | 0.210 us |   21|   21|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |       20|       20|         2|          -|          -|    10|    no    |
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+|Expression       |        -|      -|       0|     41|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|      -|       -|      -|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|     39|    -|
+|Register         |        -|      -|      15|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      0|      15|     80|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      432|    360|  141120|  70560|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        0|      0|   ~0   |   ~0  |    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------------+----------+-------+---+----+------------+------------+
+    |     Variable Name     | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------------+----------+-------+---+----+------------+------------+
+    |i_fu_88_p2             |     +    |      0|  0|  12|           4|           1|
+    |icmp_ln1495_fu_100_p2  |   icmp   |      0|  0|  20|          32|          32|
+    |icmp_ln16_fu_82_p2     |   icmp   |      0|  0|   9|           4|           4|
+    +-----------------------+----------+-------+---+----+------------+------------+
+    |Total                  |          |      0|  0|  41|          40|          37|
+    +-----------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +---------------+----+-----------+-----+-----------+
+    |      Name     | LUT| Input Size| Bits| Total Bits|
+    +---------------+----+-----------+-----+-----------+
+    |ap_NS_fsm      |  21|          4|    1|          4|
+    |i_0_reg_71     |   9|          2|    4|          8|
+    |outData_WEN_A  |   9|          2|    4|          8|
+    +---------------+----+-----------+-----+-----------+
+    |Total          |  39|          8|    9|         20|
+    +---------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------+---+----+-----+-----------+
+    |         Name        | FF| LUT| Bits| Const Bits|
+    +---------------------+---+----+-----+-----------+
+    |ap_CS_fsm            |  3|   0|    3|          0|
+    |i_0_reg_71           |  4|   0|    4|          0|
+    |i_reg_114            |  4|   0|    4|          0|
+    |zext_ln18_1_reg_119  |  4|   0|   64|         60|
+    +---------------------+---+----+-----+-----------+
+    |Total                | 15|   0|   75|         60|
+    +---------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------+-----+-----+------------+-----------------------+--------------+
+|      RTL Ports      | Dir | Bits|  Protocol  |     Source Object     |    C Type    |
++---------------------+-----+-----+------------+-----------------------+--------------+
+|ap_clk               |  in |    1| ap_ctrl_hs | openhab_controls_bram | return value |
+|ap_rst               |  in |    1| ap_ctrl_hs | openhab_controls_bram | return value |
+|ap_start             |  in |    1| ap_ctrl_hs | openhab_controls_bram | return value |
+|ap_done              | out |    1| ap_ctrl_hs | openhab_controls_bram | return value |
+|ap_idle              | out |    1| ap_ctrl_hs | openhab_controls_bram | return value |
+|ap_ready             | out |    1| ap_ctrl_hs | openhab_controls_bram | return value |
+|inputData_V_Addr_A   | out |   32|    bram    |      inputData_V      |     array    |
+|inputData_V_EN_A     | out |    1|    bram    |      inputData_V      |     array    |
+|inputData_V_WEN_A    | out |    4|    bram    |      inputData_V      |     array    |
+|inputData_V_Din_A    | out |   32|    bram    |      inputData_V      |     array    |
+|inputData_V_Dout_A   |  in |   32|    bram    |      inputData_V      |     array    |
+|inputData_V_Clk_A    | out |    1|    bram    |      inputData_V      |     array    |
+|inputData_V_Rst_A    | out |    1|    bram    |      inputData_V      |     array    |
+|thresholds_V_Addr_A  | out |   32|    bram    |      thresholds_V     |     array    |
+|thresholds_V_EN_A    | out |    1|    bram    |      thresholds_V     |     array    |
+|thresholds_V_WEN_A   | out |    4|    bram    |      thresholds_V     |     array    |
+|thresholds_V_Din_A   | out |   32|    bram    |      thresholds_V     |     array    |
+|thresholds_V_Dout_A  |  in |   32|    bram    |      thresholds_V     |     array    |
+|thresholds_V_Clk_A   | out |    1|    bram    |      thresholds_V     |     array    |
+|thresholds_V_Rst_A   | out |    1|    bram    |      thresholds_V     |     array    |
+|outData_Addr_A       | out |   32|    bram    |        outData        |     array    |
+|outData_EN_A         | out |    1|    bram    |        outData        |     array    |
+|outData_WEN_A        | out |    4|    bram    |        outData        |     array    |
+|outData_Din_A        | out |   32|    bram    |        outData        |     array    |
+|outData_Dout_A       |  in |   32|    bram    |        outData        |     array    |
+|outData_Clk_A        | out |    1|    bram    |        outData        |     array    |
+|outData_Rst_A        | out |    1|    bram    |        outData        |     array    |
++---------------------+-----+-----+------------+-----------------------+--------------+
+

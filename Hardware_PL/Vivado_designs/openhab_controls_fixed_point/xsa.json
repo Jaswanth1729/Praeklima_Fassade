@@ -1,0 +1,81 @@
+{
+    "versionMajor": "0",
+    "versionMinor": "0",
+    "usesPR": "false",
+    "platformState": "pre_synth",
+    "topModuleName": "Bram_test_wrapper",
+    "acceleratorBinaryFormat": "xclbin2",
+    "acceleratorBinaryContent": "bitstream",
+    "validAcceleratorBinaryContentValues": "dcp,bitstream",
+    "dcpFunctionStripped": "false",
+    "dcpEncrypted": "false",
+    "numComputeUnits": "60",
+    "defaultOutputType": "hw_export",
+    "designIntent": {
+        "dataCenter": {
+            "value": "false",
+            "explicit": "false"
+        },
+        "embedded": {
+            "value": "false",
+            "explicit": "false"
+        },
+        "externalHost": {
+            "value": "false",
+            "explicit": "false"
+        },
+        "serverManaged": {
+            "value": "false",
+            "explicit": "false"
+        }
+    },
+    "board": {
+        "name": "avnet.com:ultra96v2:1.2",
+        "vendor": "avnet.com",
+        "part": "xczu3eg-sbva484-1-i",
+        "boardPart": "avnet.com:ultra96v2:part0:1.2",
+        "imageFileHdpi": "ultra96v2_top.jpg"
+    },
+    "devices": [
+        {
+            "name": "fpga0",
+            "type": "8",
+            "fpgaPart": "zynquplus:xczu3eg:sbva484:-1:i",
+            "core": {
+                "name": "OCL_REGION_0",
+                "type": "clc_region",
+                "numComputeUnits": "60"
+            }
+        }
+    ],
+    "files": [
+        {
+            "name": "openhab_controls_fixed_point.bit",
+            "type": "FULL_BIT"
+        }
+    ],
+    "vendor": "xilinx",
+    "boardId": "ultra96v2",
+    "description": "Vivado generated Hardware Platform",
+    "uniqueName": "xilinx:ultra96v2::0.0",
+    "prettyName": "ULTRA96V2 ()",
+    "fpgaPart": "zynquplus",
+    "fpgaDevice": "xczu3eg",
+    "ddrCount": "0",
+    "memoryType": "ddr4",
+    "memorySize": "8 GB",
+    "defaultClockId": "0",
+    "unifiedPlatform": "true",
+    "expandablePlatform": "false",
+    "softwareEmulation": "true",
+    "hardwareEmulation": "false",
+    "busInterfaceMaxDataWidth": "0",
+    "generatedName": "Vivado",
+    "generatedVersion": "2019.2",
+    "generatedChangeList": "2708876",
+    "generatedTimestamp": "Wed Mar 24 11:00:20 2021",
+    "cpuClockNames": [
+        "CPU"
+    ]
+}
+

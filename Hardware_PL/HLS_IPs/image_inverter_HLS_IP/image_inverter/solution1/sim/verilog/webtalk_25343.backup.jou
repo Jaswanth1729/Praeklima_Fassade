@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Mar  9 14:21:19 2021
+# Process ID: 25343
+# Current directory: /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog
+# Command line: wbtcv -mode batch -source /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog/xsim.dir/image_inverter1/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog/webtalk.log
+# Journal file: /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog/webtalk.jou
+#-----------------------------------------------------------
+source /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog/xsim.dir/image_inverter1/webtalk/xsim_webtalk.tcl -notrace

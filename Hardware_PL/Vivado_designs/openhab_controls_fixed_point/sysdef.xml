@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Project Version="1" Minor="4" DIGEST="">
+	<TOOL_VERSION Version="2019.2"/>
+	<MODE Name="Post-Synthesis"/>
+	<SYSTEMINFO BOARD="avnet.com:ultra96v2:1.2" PART="xczu3eg-sbva484-1-i" ARCH="zynquplus" PACKAGE="sbva484" DEVICE="xczu3eg" SPEED="-1"/>
+	<HIERARCHY Name="Bram_test_wrapper"/>
+	<File Type="HW_HANDOFF" Name="Bram_test.hwh" DESIGN_HIERARCHY="Bram_test_i" BD_TYPE="DEFAULT_BD">
+	</File>
+	<File Type="BD_TCL" Name="Bram_test_bd.tcl">
+	</File>
+	<File Type="PS_FSBL_INIT" Name="psu_init.c">
+	</File>
+	<File Type="PS_FSBL_INIT" Name="psu_init.h">
+	</File>
+	<File Type="PS_FSBL_INIT_GPL" Name="psu_init_gpl.c">
+	</File>
+	<File Type="PS_FSBL_INIT_GPL" Name="psu_init_gpl.h">
+	</File>
+	<File Type="PS_INIT_HELP" Name="psu_init.html">
+	</File>
+	<File Type="PS_XMD_INIT" Name="psu_init.tcl">
+	</File>
+	<File Type="HW_HANDOFF" Name="Bram_test_axi_smc_0.hwh" DESIGN_HIERARCHY="Bram_test_axi_smc_0" BD_TYPE="SCOPED_BD">
+	</File>
+	<File Type="BD_TCL" Name="Bram_test_axi_smc_0_bd.tcl">
+	</File>
+	<File Type="BIT" Name="openhab_controls_fixed_point.bit">
+	</File>
+	<BOARD Type="NotIntegrated">
+		<BASEBOARD Name="avnet.com:ultra96v2:1.2">
+		</BASEBOARD>
+	</BOARD>
+	<USEDRESOURCES/>
+</Project>
+

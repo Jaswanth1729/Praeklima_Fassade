@@ -1,0 +1,5 @@
+<annotationInfo>
+<item  id="35" filename="pp_core.cpp" linenumber="14" name="icmp_ln14" contextFuncName="pp_1" moduleName="pp_1" rtlName="icmp_ln14_fu_116_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="/home/jaswanth/workspace/hls_ip/parallel_processing_1"><\/item>
+<item  id="37" filename="pp_core.cpp" linenumber="14" name="i" contextFuncName="pp_1" moduleName="pp_1" rtlName="i_fu_122_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="15" fileDirectory="/home/jaswanth/workspace/hls_ip/parallel_processing_1"><\/item>
+<item  id="48" filename="pp_core.cpp" linenumber="19" name="valOut_data_V" contextFuncName="pp_1" moduleName="pp_1" rtlName="outStream_TDATA_int" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="/home/jaswanth/workspace/hls_ip/parallel_processing_1"><\/item>
+</annotationInfo>

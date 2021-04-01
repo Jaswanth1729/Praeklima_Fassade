@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/jaswanth/workspace/hls_ip/openhab_controls_bram/openhab_controls_bram/solution1/./sim/autowrap/testbench/core.cpp_pre.cpp.tb.cpp

@@ -1,0 +1,8 @@
+sv work "glbl.v"
+sv xil_defaultlib "pp_2.v"
+sv xil_defaultlib "AESL_axi_s_inStream.v"
+sv xil_defaultlib "AESL_axi_s_outStream.v"
+sv xil_defaultlib "pp_2.autotb.v"
+sv xil_defaultlib "regslice_core.v"
+sv xil_defaultlib "AESL_fifo.v"
+

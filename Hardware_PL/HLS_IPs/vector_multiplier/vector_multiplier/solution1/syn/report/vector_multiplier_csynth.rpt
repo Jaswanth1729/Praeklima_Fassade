@@ -1,0 +1,170 @@
+
+
+================================================================
+== Vivado HLS Report for 'vector_multiplier'
+================================================================
+* Date:           Thu Mar 11 17:40:34 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        vector_multiplier
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 4.880 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        2|        2| 20.000 ns | 20.000 ns |    2|    2|   none  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+|Expression       |        -|      3|       0|     20|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        0|      -|      68|    104|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|     39|    -|
+|Register         |        -|      -|      79|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      3|     147|    163|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      432|    360|  141120|  70560|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        0|   ~0  |   ~0   |   ~0  |    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    +------------------------------------+----------------------------------+---------+-------+----+-----+-----+
+    |              Instance              |              Module              | BRAM_18K| DSP48E| FF | LUT | URAM|
+    +------------------------------------+----------------------------------+---------+-------+----+-----+-----+
+    |vector_multiplier_AXILiteS_s_axi_U  |vector_multiplier_AXILiteS_s_axi  |        0|      0|  68|  104|    0|
+    +------------------------------------+----------------------------------+---------+-------+----+-----+-----+
+    |Total                               |                                  |        0|      0|  68|  104|    0|
+    +------------------------------------+----------------------------------+---------+-------+----+-----+-----+
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------+----------+-------+---+----+------------+------------+
+    |    Variable Name   | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------+----------+-------+---+----+------------+------------+
+    |out_data_TDATA_int  |     *    |      3|  0|  20|          32|          32|
+    +--------------------+----------+-------+---+----+------------+------------+
+    |Total               |          |      3|  0|  20|          32|          32|
+    +--------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------+----+-----------+-----+-----------+
+    |         Name         | LUT| Input Size| Bits| Total Bits|
+    +----------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm             |  21|          4|    1|          4|
+    |in_data_TDATA_blk_n   |   9|          2|    1|          2|
+    |out_data_TDATA_blk_n  |   9|          2|    1|          2|
+    +----------------------+----+-----------+-----+-----------+
+    |Total                 |  39|          8|    3|          8|
+    +----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------+----+----+-----+-----------+
+    |            Name            | FF | LUT| Bits| Const Bits|
+    +----------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                   |   3|   0|    3|          0|
+    |constant_V_0_data_reg       |  32|   0|   32|          0|
+    |constant_V_0_vld_reg        |   0|   0|    1|          1|
+    |in_data_data_V_tmp_reg_141  |  32|   0|   32|          0|
+    |in_data_dest_V_tmp_reg_171  |   1|   0|    1|          0|
+    |in_data_id_V_tmp_reg_166    |   1|   0|    1|          0|
+    |in_data_keep_V_tmp_reg_146  |   4|   0|    4|          0|
+    |in_data_last_V_tmp_reg_161  |   1|   0|    1|          0|
+    |in_data_strb_V_tmp_reg_151  |   4|   0|    4|          0|
+    |in_data_user_V_tmp_reg_156  |   1|   0|    1|          0|
+    +----------------------------+----+----+-----+-----------+
+    |Total                       |  79|   0|   80|          1|
+    +----------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------+-----+-----+--------------+-------------------+--------------+
+|        RTL Ports       | Dir | Bits|   Protocol   |   Source Object   |    C Type    |
++------------------------+-----+-----+--------------+-------------------+--------------+
+|s_axi_AXILiteS_AWVALID  |  in |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_AWREADY  | out |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_AWADDR   |  in |    5|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_WVALID   |  in |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_WREADY   | out |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_WDATA    |  in |   32|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_WSTRB    |  in |    4|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_ARVALID  |  in |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_ARREADY  | out |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_ARADDR   |  in |    5|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_RVALID   | out |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_RREADY   |  in |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_RDATA    | out |   32|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_RRESP    | out |    2|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_BVALID   | out |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_BREADY   |  in |    1|     s_axi    |      AXILiteS     |    scalar    |
+|s_axi_AXILiteS_BRESP    | out |    2|     s_axi    |      AXILiteS     |    scalar    |
+|ap_clk                  |  in |    1| ap_ctrl_none | vector_multiplier | return value |
+|ap_rst_n                |  in |    1| ap_ctrl_none | vector_multiplier | return value |
+|in_data_TDATA           |  in |   32|     axis     |   in_data_data_V  |    pointer   |
+|in_data_TVALID          |  in |    1|     axis     |   in_data_dest_V  |    pointer   |
+|in_data_TREADY          | out |    1|     axis     |   in_data_dest_V  |    pointer   |
+|in_data_TDEST           |  in |    1|     axis     |   in_data_dest_V  |    pointer   |
+|in_data_TKEEP           |  in |    4|     axis     |   in_data_keep_V  |    pointer   |
+|in_data_TSTRB           |  in |    4|     axis     |   in_data_strb_V  |    pointer   |
+|in_data_TUSER           |  in |    1|     axis     |   in_data_user_V  |    pointer   |
+|in_data_TLAST           |  in |    1|     axis     |   in_data_last_V  |    pointer   |
+|in_data_TID             |  in |    1|     axis     |    in_data_id_V   |    pointer   |
+|out_data_TDATA          | out |   32|     axis     |  out_data_data_V  |    pointer   |
+|out_data_TVALID         | out |    1|     axis     |  out_data_dest_V  |    pointer   |
+|out_data_TREADY         |  in |    1|     axis     |  out_data_dest_V  |    pointer   |
+|out_data_TDEST          | out |    1|     axis     |  out_data_dest_V  |    pointer   |
+|out_data_TKEEP          | out |    4|     axis     |  out_data_keep_V  |    pointer   |
+|out_data_TSTRB          | out |    4|     axis     |  out_data_strb_V  |    pointer   |
+|out_data_TUSER          | out |    1|     axis     |  out_data_user_V  |    pointer   |
+|out_data_TLAST          | out |    1|     axis     |  out_data_last_V  |    pointer   |
+|out_data_TID            | out |    1|     axis     |   out_data_id_V   |    pointer   |
++------------------------+-----+-----+--------------+-------------------+--------------+
+

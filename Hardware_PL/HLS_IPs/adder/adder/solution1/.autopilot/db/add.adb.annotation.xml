@@ -1,0 +1,3 @@
+<annotationInfo>
+<item  id="14" filename="core.cpp" linenumber="7" name="add_ln7" contextFuncName="add" moduleName="add" rtlName="c" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/adder"><\/item>
+</annotationInfo>

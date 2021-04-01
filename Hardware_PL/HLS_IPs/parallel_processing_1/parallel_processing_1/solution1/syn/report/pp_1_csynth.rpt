@@ -1,0 +1,154 @@
+
+
+================================================================
+== Vivado HLS Report for 'pp_1'
+================================================================
+* Date:           Wed Mar 31 14:47:22 2021
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        parallel_processing_1
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-i
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 1.203 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |       41|       41| 0.410 us | 0.410 us |   41|   41|   none  |
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |- Loop 1  |       40|       40|         2|          -|          -|    20|    no    |
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+|Expression       |        -|      -|       0|     69|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|      -|       -|      -|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|     48|    -|
+|Register         |        -|      -|      13|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      0|      13|    117|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      432|    360|  141120|  70560|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        0|      0|   ~0   |   ~0  |    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------+----------+-------+---+----+------------+------------+
+    |    Variable Name    | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------+----------+-------+---+----+------------+------------+
+    |i_fu_122_p2          |     +    |      0|  0|  15|           5|           1|
+    |outStream_TDATA_int  |     +    |      0|  0|  39|          32|           3|
+    |ap_block_state2_io   |    and   |      0|  0|   2|           1|           1|
+    |icmp_ln14_fu_116_p2  |   icmp   |      0|  0|  11|           5|           5|
+    |ap_block_state2      |    or    |      0|  0|   2|           1|           1|
+    +---------------------+----------+-------+---+----+------------+------------+
+    |Total                |          |      0|  0|  69|          44|          11|
+    +---------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------------------+----+-----------+-----+-----------+
+    |          Name         | LUT| Input Size| Bits| Total Bits|
+    +-----------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm              |  21|          4|    1|          4|
+    |i_0_reg_105            |   9|          2|    5|         10|
+    |inStream_TDATA_blk_n   |   9|          2|    1|          2|
+    |outStream_TDATA_blk_n  |   9|          2|    1|          2|
+    +-----------------------+----+-----------+-----+-----------+
+    |Total                  |  48|         10|    8|         18|
+    +-----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------+---+----+-----+-----------+
+    |     Name    | FF| LUT| Bits| Const Bits|
+    +-------------+---+----+-----+-----------+
+    |ap_CS_fsm    |  3|   0|    3|          0|
+    |i_0_reg_105  |  5|   0|    5|          0|
+    |i_reg_172    |  5|   0|    5|          0|
+    +-------------+---+----+-----+-----------+
+    |Total        | 13|   0|   13|          0|
+    +-------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------+-----+-----+------------+--------------------+--------------+
+|     RTL Ports    | Dir | Bits|  Protocol  |    Source Object   |    C Type    |
++------------------+-----+-----+------------+--------------------+--------------+
+|ap_clk            |  in |    1| ap_ctrl_hs |        pp_1        | return value |
+|ap_rst_n          |  in |    1| ap_ctrl_hs |        pp_1        | return value |
+|ap_start          |  in |    1| ap_ctrl_hs |        pp_1        | return value |
+|ap_done           | out |    1| ap_ctrl_hs |        pp_1        | return value |
+|ap_idle           | out |    1| ap_ctrl_hs |        pp_1        | return value |
+|ap_ready          | out |    1| ap_ctrl_hs |        pp_1        | return value |
+|inStream_TDATA    |  in |   32|    axis    |  inStream_V_data_V |    pointer   |
+|inStream_TVALID   |  in |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TREADY   | out |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TDEST    |  in |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TKEEP    |  in |    4|    axis    |  inStream_V_keep_V |    pointer   |
+|inStream_TSTRB    |  in |    4|    axis    |  inStream_V_strb_V |    pointer   |
+|inStream_TUSER    |  in |    1|    axis    |  inStream_V_user_V |    pointer   |
+|inStream_TLAST    |  in |    1|    axis    |  inStream_V_last_V |    pointer   |
+|inStream_TID      |  in |    1|    axis    |   inStream_V_id_V  |    pointer   |
+|outStream_TDATA   | out |   32|    axis    | outStream_V_data_V |    pointer   |
+|outStream_TVALID  | out |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TREADY  |  in |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TDEST   | out |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TKEEP   | out |    4|    axis    | outStream_V_keep_V |    pointer   |
+|outStream_TSTRB   | out |    4|    axis    | outStream_V_strb_V |    pointer   |
+|outStream_TUSER   | out |    1|    axis    | outStream_V_user_V |    pointer   |
+|outStream_TLAST   | out |    1|    axis    | outStream_V_last_V |    pointer   |
+|outStream_TID     | out |    1|    axis    |  outStream_V_id_V  |    pointer   |
++------------------+-----+-----+------------+--------------------+--------------+
+

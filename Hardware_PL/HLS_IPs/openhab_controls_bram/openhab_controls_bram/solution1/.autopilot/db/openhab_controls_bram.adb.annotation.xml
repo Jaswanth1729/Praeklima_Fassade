@@ -1,0 +1,7 @@
+<annotationInfo>
+<item  id="14" filename="core.cpp" linenumber="16" name="icmp_ln16" contextFuncName="openhab_controls_bram" moduleName="openhab_controls_bram" rtlName="icmp_ln16_fu_82_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="/home/jaswanth/workspace/hls_ip/openhab_controls_bram"><\/item>
+<item  id="16" filename="core.cpp" linenumber="16" name="i" contextFuncName="openhab_controls_bram" moduleName="openhab_controls_bram" rtlName="i_fu_88_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="12" fileDirectory="/home/jaswanth/workspace/hls_ip/openhab_controls_bram"><\/item>
+<item  id="19" filename="core.cpp" linenumber="18" name="zext_ln18_1" contextFuncName="openhab_controls_bram" moduleName="openhab_controls_bram" rtlName="zext_ln18_1_fu_94_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/jaswanth/workspace/hls_ip/openhab_controls_bram"><\/item>
+<item  id="24" filename="core.cpp" linenumber="18" name="icmp_ln1495" contextFuncName="openhab_controls_bram" moduleName="openhab_controls_bram" rtlName="icmp_ln1495_fu_100_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="20" fileDirectory="/home/jaswanth/workspace/hls_ip/openhab_controls_bram"><\/item>
+<item  id="25" filename="core.cpp" linenumber="18" name="zext_ln18" contextFuncName="openhab_controls_bram" moduleName="openhab_controls_bram" rtlName="outData_Din_A" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/jaswanth/workspace/hls_ip/openhab_controls_bram"><\/item>
+</annotationInfo>

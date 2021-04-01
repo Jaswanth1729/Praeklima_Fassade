@@ -1,0 +1,351 @@
+Value is 380108.000000 and idx is 0
+Value is 380108.000000 and idx is 1
+Value is 380108.000000 and idx is 2
+Value is 380108.000000 and idx is 3
+Value is 380108.000000 and idx is 4
+Value is 380108.000000 and idx is 5
+Value is 380108.000000 and idx is 6
+Value is 380108.000000 and idx is 7
+Value is 380108.000000 and idx is 8
+Value is 380108.000000 and idx is 9
+Value is 380108.000000 and idx is 10
+Value is 380108.000000 and idx is 11
+Value is 380108.000000 and idx is 12
+Value is 380108.000000 and idx is 13
+Value is 380108.000000 and idx is 14
+Value is 380108.000000 and idx is 15
+Value is 380108.000000 and idx is 16
+Value is 380108.000000 and idx is 17
+Value is 380108.000000 and idx is 18
+Value is 380108.000000 and idx is 19
+Value is 380108.000000 and idx is 20
+Value is 380108.000000 and idx is 21
+Value is 380108.000000 and idx is 22
+Value is 380108.000000 and idx is 23
+Value is 380108.000000 and idx is 24
+380108 
+ 5.799988 
+0.000000 
+Value is -2032111664
+1.000000 
+Value is -2032111660
+2.000000 
+Value is -2032111656
+3.000000 
+Value is -2032111652
+4.000000 
+Value is -2032111648
+5.000000 
+Value is -2032111644
+6.000000 
+Value is -2032111640
+7.000000 
+Value is -2032111636
+8.000000 
+Value is -2032111632
+9.000000 
+Value is -2032111628
+10.000000 
+Value is -2032111624
+11.000000 
+Value is -2032111620
+12.000000 
+Value is -2032111616
+13.000000 
+Value is -2032111612
+14.000000 
+Value is -2032111608
+15.000000 
+Value is -2032111604
+16.000000 
+Value is -2032111600
+17.000000 
+Value is -2032111596
+18.000000 
+Value is -2032111592
+19.000000 
+Value is -2032111588
+20.000000 
+Value is -2032111584
+21.000000 
+Value is -2032111580
+22.000000 
+Value is -2032111576
+23.000000 
+Value is -2032111572
+24.000000 
+Value is -2032111568
+Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ 
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "/home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_openhab_controls_top glbl -prj openhab_controls.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile /home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s openhab_controls 
+Multi-threading is on. Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module openhab_controls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/AESL_axi_s_inStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_inStream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/AESL_axi_s_outStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_outStream
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_openhab_controls_top
+INFO: [VRFC 10-2458] undeclared symbol bramthresholds_V_Rst_A, assumed default net type wire [/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.autotb.v:281]
+INFO: [VRFC 10-2458] undeclared symbol bramthresholds_V_Rst_B, assumed default net type wire [/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.autotb.v:288]
+INFO: [VRFC 10-2458] undeclared symbol bramoutData_V_Rst_A, assumed default net type wire [/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.autotb.v:326]
+INFO: [VRFC 10-2458] undeclared symbol bramoutData_V_Rst_B, assumed default net type wire [/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.autotb.v:333]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/regslice_core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regslice_both
+INFO: [VRFC 10-311] analyzing module regslice_forward
+INFO: [VRFC 10-311] analyzing module regslice_reverse
+INFO: [VRFC 10-311] analyzing module regslice_both_w1
+INFO: [VRFC 10-311] analyzing module regslice_forward_w1
+INFO: [VRFC 10-311] analyzing module regslice_reverse_w1
+INFO: [VRFC 10-311] analyzing module ibuf
+INFO: [VRFC 10-311] analyzing module obuf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/AESL_autobram_outData_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_autobram_outData_V
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/AESL_autobram_thresholds_V.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_autobram_thresholds_V
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ibuf(W=33)
+Compiling module xil_defaultlib.obuf(W=33)
+Compiling module xil_defaultlib.regslice_both_default
+Compiling module xil_defaultlib.ibuf(W=5)
+Compiling module xil_defaultlib.obuf(W=5)
+Compiling module xil_defaultlib.regslice_both(DataWidth=4)
+Compiling module xil_defaultlib.ibuf(W=2)
+Compiling module xil_defaultlib.obuf(W=2)
+Compiling module xil_defaultlib.regslice_both(DataWidth=1)
+Compiling module xil_defaultlib.openhab_controls
+Compiling module xil_defaultlib.AESL_autobram_thresholds_V
+Compiling module xil_defaultlib.AESL_autobram_outData_V
+Compiling module xil_defaultlib.fifo(DEPTH=25,WIDTH=32)
+Compiling module xil_defaultlib.fifo(DEPTH=25,WIDTH=4)
+Compiling module xil_defaultlib.fifo(DEPTH=25,WIDTH=1)
+Compiling module xil_defaultlib.AESL_axi_s_inStream
+Compiling module xil_defaultlib.AESL_axi_s_outStream
+Compiling module xil_defaultlib.apatb_openhab_controls_top
+Compiling module work.glbl
+Built simulation snapshot openhab_controls
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/xsim.dir/openhab_controls/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/xsim.dir/openhab_controls/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Mar 26 13:11:10 2021. For additional details about this file, please refer to the WebTalk help file at /home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 26 13:11:10 2021...
+
+****** xsim v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/openhab_controls/xsim_script.tcl
+# xsim {openhab_controls} -autoloadwcfg -tclbatch {openhab_controls.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openhab_controls.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "655000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 695 ns : File "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.autotb.v" Line 486
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 26 13:11:22 2021...
+Value is 380108.000000 and idx is 0
+Value is 380108.000000 and idx is 1
+Value is 380108.000000 and idx is 2
+Value is 380108.000000 and idx is 3
+Value is 380108.000000 and idx is 4
+Value is 380108.000000 and idx is 5
+Value is 380108.000000 and idx is 6
+Value is 380108.000000 and idx is 7
+Value is 380108.000000 and idx is 8
+Value is 380108.000000 and idx is 9
+Value is 380108.000000 and idx is 10
+Value is 380108.000000 and idx is 11
+Value is 380108.000000 and idx is 12
+Value is 380108.000000 and idx is 13
+Value is 380108.000000 and idx is 14
+Value is 380108.000000 and idx is 15
+Value is 380108.000000 and idx is 16
+Value is 380108.000000 and idx is 17
+Value is 380108.000000 and idx is 18
+Value is 380108.000000 and idx is 19
+Value is 380108.000000 and idx is 20
+Value is 380108.000000 and idx is 21
+Value is 380108.000000 and idx is 22
+Value is 380108.000000 and idx is 23
+Value is 380108.000000 and idx is 24
+380108 
+ 5.799988 
+0.000000 
+Value is -647334400
+1.000000 
+Value is -647334396
+2.000000 
+Value is -647334392
+3.000000 
+Value is -647334388
+4.000000 
+Value is -647334384
+5.000000 
+Value is -647334380
+6.000000 
+Value is -647334376
+7.000000 
+Value is -647334372
+8.000000 
+Value is -647334368
+9.000000 
+Value is -647334364
+10.000000 
+Value is -647334360
+11.000000 
+Value is -647334356
+12.000000 
+Value is -647334352
+13.000000 
+Value is -647334348
+14.000000 
+Value is -647334344
+15.000000 
+Value is -647334340
+16.000000 
+Value is -647334336
+17.000000 
+Value is -647334332
+18.000000 
+Value is -647334328
+19.000000 
+Value is -647334324
+20.000000 
+Value is -647334320
+21.000000 
+Value is -647334316
+22.000000 
+Value is -647334312
+23.000000 
+Value is -647334308
+24.000000 
+Value is -647334304
+Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ 

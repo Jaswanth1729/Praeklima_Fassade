@@ -1,0 +1,274 @@
+
+
+================================================================
+== Vivado HLS Report for 'openhab_controls'
+================================================================
+<<<<<<< HEAD
+* Date:           Fri Mar 26 14:32:32 2021
+=======
+* Date:           Wed Mar 17 17:14:15 2021
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+
+* Version:        2019.2 (Build 2704478 on Wed Nov 06 22:10:23 MST 2019)
+* Project:        openhab_controls
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu3eg-sbva484-1-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  | 10.00 ns | 2.691 ns |   1.25 ns  |
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+<<<<<<< HEAD
+    |       41|       41| 0.410 us | 0.410 us |   41|   41|   none  |
+=======
+    |       31|       31| 0.310 us | 0.310 us |   31|   31|   none  |
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+        |          |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name|   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+<<<<<<< HEAD
+        |- Loop 1  |       40|       40|         2|          -|          -|    20|    no    |
+=======
+        |- Loop 1  |       30|       30|         3|          -|          -|    10|    no    |
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+        +----------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+-----+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  | URAM|
++-----------------+---------+-------+--------+-------+-----+
+|DSP              |        -|      -|       -|      -|    -|
+<<<<<<< HEAD
+|Expression       |        -|      -|       0|     50|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|      -|       -|      -|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|     57|    -|
+|Register         |        -|      -|      50|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      0|      50|    107|    0|
+=======
+|Expression       |        -|      -|       0|     41|    -|
+|FIFO             |        -|      -|       -|      -|    -|
+|Instance         |        -|      -|       -|      -|    -|
+|Memory           |        -|      -|       -|      -|    -|
+|Multiplexer      |        -|      -|       -|     63|    -|
+|Register         |        -|      -|      16|      -|    -|
++-----------------+---------+-------+--------+-------+-----+
+|Total            |        0|      0|      16|    104|    0|
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
++-----------------+---------+-------+--------+-------+-----+
+|Available        |      432|    360|  141120|  70560|    0|
++-----------------+---------+-------+--------+-------+-----+
+|Utilization (%)  |        0|      0|   ~0   |   ~0  |    0|
++-----------------+---------+-------+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP48E: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+<<<<<<< HEAD
+    +---------------------+----------+-------+---+----+------------+------------+
+    |    Variable Name    | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------+----------+-------+---+----+------------+------------+
+    |i_fu_158_p2          |     +    |      0|  0|  15|           5|           1|
+    |ap_block_state2_io   |    and   |      0|  0|   2|           1|           1|
+    |icmp_ln16_fu_152_p2  |   icmp   |      0|  0|  11|           5|           5|
+    |signbit_fu_204_p2    |   icmp   |      0|  0|  20|          32|          32|
+    |ap_block_state2      |    or    |      0|  0|   2|           1|           1|
+    +---------------------+----------+-------+---+----+------------+------------+
+    |Total                |          |      0|  0|  50|          44|          40|
+    +---------------------+----------+-------+---+----+------------+------------+
+=======
+    +----------------------+----------+-------+---+----+------------+------------+
+    |     Variable Name    | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------+----------+-------+---+----+------------+------------+
+    |i_fu_154_p2           |     +    |      0|  0|  12|           4|           1|
+    |icmp_ln14_fu_148_p2   |   icmp   |      0|  0|   9|           4|           4|
+    |icmp_ln887_fu_199_p2  |   icmp   |      0|  0|  20|          32|          32|
+    +----------------------+----------+-------+---+----+------------+------------+
+    |Total                 |          |      0|  0|  41|          40|          37|
+    +----------------------+----------+-------+---+----+------------+------------+
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+
+    * Multiplexer: 
+    +-----------------------+----+-----------+-----+-----------+
+    |          Name         | LUT| Input Size| Bits| Total Bits|
+    +-----------------------+----+-----------+-----+-----------+
+<<<<<<< HEAD
+    |ap_NS_fsm              |  21|          4|    1|          4|
+    |i_0_reg_141            |   9|          2|    5|         10|
+    |inStream_TDATA_blk_n   |   9|          2|    1|          2|
+    |outData_V_WEN_A        |   9|          2|    4|          8|
+    |outStream_TDATA_blk_n  |   9|          2|    1|          2|
+    +-----------------------+----+-----------+-----+-----------+
+    |Total                  |  57|         12|   12|         26|
+    +-----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------+----+----+-----+-----------+
+    |        Name        | FF | LUT| Bits| Const Bits|
+    +--------------------+----+----+-----+-----------+
+    |ap_CS_fsm           |   3|   0|    3|          0|
+    |i_0_reg_141         |   5|   0|    5|          0|
+    |i_reg_225           |   5|   0|    5|          0|
+    |tmp_data_V_reg_230  |  32|   0|   32|          0|
+    |zext_ln26_reg_266   |   5|   0|   64|         59|
+    +--------------------+----+----+-----+-----------+
+    |Total               |  50|   0|  109|         59|
+    +--------------------+----+----+-----+-----------+
+=======
+    |ap_NS_fsm              |  27|          5|    1|          5|
+    |i_0_reg_137            |   9|          2|    4|          8|
+    |inStream_TDATA_blk_n   |   9|          2|    1|          2|
+    |outData_WEN_A          |   9|          2|    4|          8|
+    |outStream_TDATA_blk_n  |   9|          2|    1|          2|
+    +-----------------------+----+-----------+-----+-----------+
+    |Total                  |  63|         13|   11|         25|
+    +-----------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------+---+----+-----+-----------+
+    |        Name       | FF| LUT| Bits| Const Bits|
+    +-------------------+---+----+-----+-----------+
+    |ap_CS_fsm          |  4|   0|    4|          0|
+    |i_0_reg_137        |  4|   0|    4|          0|
+    |i_reg_214          |  4|   0|    4|          0|
+    |zext_ln19_reg_219  |  4|   0|   64|         60|
+    +-------------------+---+----+-----+-----------+
+    |Total              | 16|   0|   76|         60|
+    +-------------------+---+----+-----+-----------+
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+<<<<<<< HEAD
++---------------------+-----+-----+------------+--------------------+--------------+
+|      RTL Ports      | Dir | Bits|  Protocol  |    Source Object   |    C Type    |
++---------------------+-----+-----+------------+--------------------+--------------+
+|ap_clk               |  in |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_rst_n             |  in |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_start             |  in |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_done              | out |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_idle              | out |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_ready             | out |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|inStream_TDATA       |  in |   32|    axis    |  inStream_V_data_V |    pointer   |
+|inStream_TVALID      |  in |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TREADY      | out |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TDEST       |  in |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TKEEP       |  in |    4|    axis    |  inStream_V_keep_V |    pointer   |
+|inStream_TSTRB       |  in |    4|    axis    |  inStream_V_strb_V |    pointer   |
+|inStream_TUSER       |  in |    1|    axis    |  inStream_V_user_V |    pointer   |
+|inStream_TLAST       |  in |    1|    axis    |  inStream_V_last_V |    pointer   |
+|inStream_TID         |  in |    1|    axis    |   inStream_V_id_V  |    pointer   |
+|outStream_TDATA      | out |   32|    axis    | outStream_V_data_V |    pointer   |
+|outStream_TVALID     | out |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TREADY     |  in |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TDEST      | out |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TKEEP      | out |    4|    axis    | outStream_V_keep_V |    pointer   |
+|outStream_TSTRB      | out |    4|    axis    | outStream_V_strb_V |    pointer   |
+|outStream_TUSER      | out |    1|    axis    | outStream_V_user_V |    pointer   |
+|outStream_TLAST      | out |    1|    axis    | outStream_V_last_V |    pointer   |
+|outStream_TID        | out |    1|    axis    |  outStream_V_id_V  |    pointer   |
+|thresholds_V_Addr_A  | out |   32|    bram    |    thresholds_V    |     array    |
+|thresholds_V_EN_A    | out |    1|    bram    |    thresholds_V    |     array    |
+|thresholds_V_WEN_A   | out |    4|    bram    |    thresholds_V    |     array    |
+|thresholds_V_Din_A   | out |   32|    bram    |    thresholds_V    |     array    |
+|thresholds_V_Dout_A  |  in |   32|    bram    |    thresholds_V    |     array    |
+|thresholds_V_Clk_A   | out |    1|    bram    |    thresholds_V    |     array    |
+|thresholds_V_Rst_A   | out |    1|    bram    |    thresholds_V    |     array    |
+|outData_V_Addr_A     | out |   32|    bram    |      outData_V     |     array    |
+|outData_V_EN_A       | out |    1|    bram    |      outData_V     |     array    |
+|outData_V_WEN_A      | out |    4|    bram    |      outData_V     |     array    |
+|outData_V_Din_A      | out |   32|    bram    |      outData_V     |     array    |
+|outData_V_Dout_A     |  in |   32|    bram    |      outData_V     |     array    |
+|outData_V_Clk_A      | out |    1|    bram    |      outData_V     |     array    |
+|outData_V_Rst_A      | out |    1|    bram    |      outData_V     |     array    |
++---------------------+-----+-----+------------+--------------------+--------------+
+=======
++-------------------+-----+-----+------------+--------------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  |    Source Object   |    C Type    |
++-------------------+-----+-----+------------+--------------------+--------------+
+|ap_clk             |  in |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_rst_n           |  in |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_start           |  in |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_done            | out |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_idle            | out |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|ap_ready           | out |    1| ap_ctrl_hs |  openhab_controls  | return value |
+|inStream_TDATA     |  in |   32|    axis    |  inStream_V_data_V |    pointer   |
+|inStream_TVALID    |  in |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TREADY    | out |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TDEST     |  in |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TKEEP     |  in |    4|    axis    |  inStream_V_keep_V |    pointer   |
+|inStream_TSTRB     |  in |    4|    axis    |  inStream_V_strb_V |    pointer   |
+|inStream_TUSER     |  in |    1|    axis    |  inStream_V_user_V |    pointer   |
+|inStream_TLAST     |  in |    1|    axis    |  inStream_V_last_V |    pointer   |
+|inStream_TID       |  in |    1|    axis    |   inStream_V_id_V  |    pointer   |
+|outStream_TDATA    | out |   32|    axis    | outStream_V_data_V |    pointer   |
+|outStream_TVALID   | out |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TREADY   |  in |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TDEST    | out |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TKEEP    | out |    4|    axis    | outStream_V_keep_V |    pointer   |
+|outStream_TSTRB    | out |    4|    axis    | outStream_V_strb_V |    pointer   |
+|outStream_TUSER    | out |    1|    axis    | outStream_V_user_V |    pointer   |
+|outStream_TLAST    | out |    1|    axis    | outStream_V_last_V |    pointer   |
+|outStream_TID      | out |    1|    axis    |  outStream_V_id_V  |    pointer   |
+|thresholds_Addr_A  | out |   32|    bram    |     thresholds     |     array    |
+|thresholds_EN_A    | out |    1|    bram    |     thresholds     |     array    |
+|thresholds_WEN_A   | out |    4|    bram    |     thresholds     |     array    |
+|thresholds_Din_A   | out |   32|    bram    |     thresholds     |     array    |
+|thresholds_Dout_A  |  in |   32|    bram    |     thresholds     |     array    |
+|thresholds_Clk_A   | out |    1|    bram    |     thresholds     |     array    |
+|thresholds_Rst_A   | out |    1|    bram    |     thresholds     |     array    |
+|outData_Addr_A     | out |   32|    bram    |       outData      |     array    |
+|outData_EN_A       | out |    1|    bram    |       outData      |     array    |
+|outData_WEN_A      | out |    4|    bram    |       outData      |     array    |
+|outData_Din_A      | out |   32|    bram    |       outData      |     array    |
+|outData_Dout_A     |  in |   32|    bram    |       outData      |     array    |
+|outData_Clk_A      | out |    1|    bram    |       outData      |     array    |
+|outData_Rst_A      | out |    1|    bram    |       outData      |     array    |
++-------------------+-----+-----+------------+--------------------+--------------+
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+

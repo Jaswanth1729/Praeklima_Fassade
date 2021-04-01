@@ -1,0 +1,3 @@
+<annotationInfo>
+<item  id="45" filename="core.cpp" linenumber="11" name="mul_ln214" contextFuncName="vector_multiplier" moduleName="vector_multiplier" rtlName="out_data_TDATA_int" latency="0" BRAM="-1" DSP="3" FF="0" LUT="20" fileDirectory="/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/vector_multiplier"><\/item>
+</annotationInfo>

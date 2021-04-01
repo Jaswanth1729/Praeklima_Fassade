@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="openhab_controls" xd:componentRef="openhab_controls" xd:initiationInterval="42" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+=======
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="openhab_controls" xd:componentRef="openhab_controls" xd:initiationInterval="32" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+  <xd:controlReg xd:name="control" xd:interfaceRef="ap_ctrl" xd:busTypeRef="acc_handshake" xd:type="acc_handshake"/>
+  <xd:arg xd:name="inStream.data" xd:originalName="inStream" xd:direction="in" xd:interfaceRef="inStream" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="inStream.keep" xd:originalName="inStream" xd:direction="in" xd:interfaceRef="inStream" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="inStream.strb" xd:originalName="inStream" xd:direction="in" xd:interfaceRef="inStream" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="inStream.user" xd:originalName="inStream" xd:direction="in" xd:interfaceRef="inStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="inStream.last" xd:originalName="inStream" xd:direction="in" xd:interfaceRef="inStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="inStream.id" xd:originalName="inStream" xd:direction="in" xd:interfaceRef="inStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="inStream.dest" xd:originalName="inStream" xd:direction="in" xd:interfaceRef="inStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="outStream.data" xd:originalName="outStream" xd:direction="out" xd:interfaceRef="outStream" xd:busTypeRef="axis" xd:dataWidth="32"/>
+  <xd:arg xd:name="outStream.keep" xd:originalName="outStream" xd:direction="out" xd:interfaceRef="outStream" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="outStream.strb" xd:originalName="outStream" xd:direction="out" xd:interfaceRef="outStream" xd:busTypeRef="axis" xd:dataWidth="4"/>
+  <xd:arg xd:name="outStream.user" xd:originalName="outStream" xd:direction="out" xd:interfaceRef="outStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="outStream.last" xd:originalName="outStream" xd:direction="out" xd:interfaceRef="outStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="outStream.id" xd:originalName="outStream" xd:direction="out" xd:interfaceRef="outStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="outStream.dest" xd:originalName="outStream" xd:direction="out" xd:interfaceRef="outStream" xd:busTypeRef="axis" xd:dataWidth="1"/>
+<<<<<<< HEAD
+  <xd:arg xd:name="thresholds[]" xd:originalName="thresholds" xd:direction="in" xd:interfaceRef="thresholds_V_PORTA" xd:busTypeRef="bram" xd:firstOut="1" xd:arraySize="20" xd:dataWidth="32"/>
+  <xd:arg xd:name="outData[]" xd:originalName="outData" xd:direction="out" xd:interfaceRef="outData_V_PORTA" xd:busTypeRef="bram" xd:firstOut="1" xd:arraySize="20" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="41" xd:worst-case="41" xd:average-case="41"/>
+  <xd:resourceEstimates xd:LUT="107" xd:FF="50" xd:BRAM="0" xd:DSP="0"/>
+=======
+  <xd:arg xd:name="thresholds[]" xd:originalName="thresholds" xd:direction="in" xd:interfaceRef="thresholds_PORTA" xd:busTypeRef="bram" xd:firstOut="2" xd:arraySize="10" xd:dataWidth="32"/>
+  <xd:arg xd:name="outData[]" xd:originalName="outData" xd:direction="out" xd:interfaceRef="outData_PORTA" xd:busTypeRef="bram" xd:firstOut="2" xd:arraySize="10" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="31" xd:worst-case="31" xd:average-case="31"/>
+  <xd:resourceEstimates xd:LUT="104" xd:FF="16" xd:BRAM="0" xd:DSP="0"/>
+>>>>>>> e6ba4f12a62ab2691c7c4dd9af72e186add2c2fa
+</xd:acceleratorMap>

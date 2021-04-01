@@ -1,0 +1,110 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../tb_core.cpp in release mode
+   Compiling ../../../../core.cpp in release mode
+   Generating csim.exe
+Value is 380108.000000 and idx is 0
+Value is 380108.000000 and idx is 1
+Value is 380108.000000 and idx is 2
+Value is 380108.000000 and idx is 3
+Value is 380108.000000 and idx is 4
+Value is 380108.000000 and idx is 5
+Value is 380108.000000 and idx is 6
+Value is 380108.000000 and idx is 7
+Value is 380108.000000 and idx is 8
+Value is 380108.000000 and idx is 9
+Value is 380108.000000 and idx is 10
+Value is 380108.000000 and idx is 11
+Value is 380108.000000 and idx is 12
+Value is 380108.000000 and idx is 13
+Value is 380108.000000 and idx is 14
+Value is 380108.000000 and idx is 15
+Value is 380108.000000 and idx is 16
+Value is 380108.000000 and idx is 17
+Value is 380108.000000 and idx is 18
+Value is 380108.000000 and idx is 19
+380108 
+ 5.799988 
+0.000000 
+Value is 1709602368
+1.000000 
+Value is 1709602372
+2.000000 
+Value is 1709602376
+3.000000 
+Value is 1709602380
+4.000000 
+Value is 1709602384
+5.000000 
+Value is 1709602388
+6.000000 
+Value is 1709602392
+7.000000 
+Value is 1709602396
+8.000000 
+Value is 1709602400
+9.000000 
+Value is 1709602404
+10.000000 
+Value is 1709602408
+11.000000 
+Value is 1709602412
+12.000000 
+Value is 1709602416
+13.000000 
+Value is 1709602420
+14.000000 
+Value is 1709602424
+15.000000 
+Value is 1709602428
+16.000000 
+Value is 1709602432
+17.000000 
+Value is 1709602436
+18.000000 
+Value is 1709602440
+19.000000 
+Value is 1709602444
+Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+0.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ Value is 380108
+1.000000 
+ 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

@@ -1,0 +1,10 @@
+sv work "glbl.v"
+sv xil_defaultlib "openhab_controls.v"
+sv xil_defaultlib "AESL_axi_s_inStream.v"
+sv xil_defaultlib "AESL_axi_s_outStream.v"
+sv xil_defaultlib "openhab_controls.autotb.v"
+sv xil_defaultlib "regslice_core.v"
+sv xil_defaultlib "AESL_autobram_outData_V.v"
+sv xil_defaultlib "AESL_autobram_thresholds_V.v"
+sv xil_defaultlib "AESL_fifo.v"
+

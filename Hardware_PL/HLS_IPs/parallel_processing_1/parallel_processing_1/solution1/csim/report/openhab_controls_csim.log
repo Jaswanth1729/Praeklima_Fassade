@@ -1,0 +1,27 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../tb_pp_core.cpp in debug mode
+   Compiling ../../../../pp_core.cpp in debug mode
+   Generating csim.exe
+Value is 5
+Value is 6
+Value is 7
+Value is 8
+Value is 9
+Value is 10
+Value is 11
+Value is 12
+Value is 13
+Value is 14
+Value is 15
+Value is 16
+Value is 17
+Value is 18
+Value is 19
+Value is 20
+Value is 21
+Value is 22
+Value is 23
+Value is 24
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

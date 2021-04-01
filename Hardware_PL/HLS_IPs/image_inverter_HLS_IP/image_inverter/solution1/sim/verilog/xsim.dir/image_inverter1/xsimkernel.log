@@ -1,0 +1,7 @@
+Running: xsim.dir/image_inverter1/xsimk -simmode gui -wdb image_inverter1.wdb -simrunnum 0 -socket 43437
+Design successfully loaded
+Design Loading Memory Usage: 37572 KB (Peak: 37580 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 119760 KB (Peak: 176840 KB)
+Simulation CPU Usage: 20 ms

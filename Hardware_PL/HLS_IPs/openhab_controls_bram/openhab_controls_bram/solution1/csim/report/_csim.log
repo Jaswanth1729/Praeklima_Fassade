@@ -1,0 +1,68 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../tb_core.cpp in release mode
+   Compiling ../../../../core.cpp in release mode
+   Generating csim.exe
+5.500000 
+6.500000 
+
+5.500000 
+6.500000 
+
+5.500000 
+6.500000 
+
+5.500000 
+6.500000 
+
+5.500000 
+6.500000 
+
+5.500000 
+6.500000 
+
+5.500000 
+4.500000 
+
+5.500000 
+4.500000 
+
+5.500000 
+4.500000 
+
+5.500000 
+4.500000 
+
+Value is 6.500000
+5.500000 
+ 0 
+ Value is 6.500000
+5.500000 
+ 0 
+ Value is 6.500000
+5.500000 
+ 0 
+ Value is 6.500000
+5.500000 
+ 0 
+ Value is 6.500000
+5.500000 
+ 0 
+ Value is 6.500000
+5.500000 
+ 0 
+ Value is 4.500000
+5.500000 
+ 1 
+ Value is 4.500000
+5.500000 
+ 1 
+ Value is 4.500000
+5.500000 
+ 1 
+ Value is 4.500000
+5.500000 
+ 1 
+ 
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

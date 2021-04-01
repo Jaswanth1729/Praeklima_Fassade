@@ -1,0 +1,5 @@
+   Build using "/home/jaswanth/toolsEDA/Xilinx/Vivado/2019.2/tps/lnx64/gcc-6.2.0/bin/g++"
+   Compiling core.cpp_pre.cpp.tb.cpp
+   Compiling apatb_openhab_controls.cpp
+   Compiling tb_core.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

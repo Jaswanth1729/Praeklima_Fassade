@@ -1,0 +1,27 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "openhab_controls",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "s_axilite",
+                "value": "",
+                "positionalBoolean": "mode"
+              },
+              {
+                "name": "port",
+                "value": "thresholds",
+                "positionalBoolean": "4"
+              },
+              {
+                "name": "bundle",
+                "value": "DATA_BUS"
+              }
+            ]
+          }
+        }]
+    }]}

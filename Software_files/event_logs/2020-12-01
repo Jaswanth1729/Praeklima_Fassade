@@ -1,0 +1,381 @@
+2020-12-01 00:06:14.039 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.1
+2020-12-01 00:12:37.422 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 33 to 32
+2020-12-01 00:20:57.650 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.1 to 14.2
+2020-12-01 00:42:40.439 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-11-30T23:42:39.000+0000 to 2020-12-01T00:37:43.000+0000
+2020-12-01 00:42:40.471 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.82 ?C to 0.5 ?C
+2020-12-01 00:42:40.485 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.57 ?C to -4.93 ?C
+2020-12-01 00:42:40.578 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.84 ?C to 1.04 ?C
+2020-12-01 00:42:40.588 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -4.15 ?C to -4.02 ?C
+2020-12-01 00:42:40.591 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 77 % to 75 %
+2020-12-01 00:42:40.593 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 16 % to 49 %
+2020-12-01 00:42:40.610 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.43 ?C to 1.39 ?C
+2020-12-01 00:42:40.612 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.49 ?C to -3.37 ?C
+2020-12-01 00:42:40.615 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 79 % to 81 %
+2020-12-01 00:42:40.618 [vent.ItemStateChangedEvent] - LocalForecastedRain_6 changed from 0.0 mm to 0.043333333333333335 mm
+2020-12-01 00:42:40.634 [vent.ItemStateChangedEvent] - localCurrentUVIndexTimestamp changed from 2020-11-30T12:00:00.000+0000 to 2020-12-01T12:00:00.000+0000
+2020-12-01 00:42:40.641 [vent.ItemStateChangedEvent] - localCurrentUVIndex changed from 0.57 to 0.52
+2020-12-01 00:45:59.098 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.8 ?C to 22.7 ?C
+2020-12-01 01:12:36.374 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.7 ?C to 22.6 ?C
+2020-12-01 01:15:59.084 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.6 ?C to 22.7 ?C
+2020-12-01 01:20:57.652 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.1
+2020-12-01 01:42:41.080 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T00:37:43.000+0000 to 2020-12-01T01:42:40.000+0000
+2020-12-01 01:42:41.111 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.5 ?C to 0.78 ?C
+2020-12-01 01:42:41.114 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.93 ?C to -5.21 ?C
+2020-12-01 01:42:41.120 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 69 % to 74 %
+2020-12-01 01:42:41.139 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.04 ?C to 1.18 ?C
+2020-12-01 01:42:41.141 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -4.02 ?C to -3.8 ?C
+2020-12-01 01:42:41.143 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 75 % to 78 %
+2020-12-01 01:42:41.146 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.39 ?C to 1.45 ?C
+2020-12-01 01:42:41.148 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.37 ?C to -3.28 ?C
+2020-12-01 01:42:41.150 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 81 % to 82 %
+2020-12-01 01:45:59.085 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.7 ?C to 22.6 ?C
+2020-12-01 01:50:57.650 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.1 to 14.2
+2020-12-01 02:20:57.654 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.3
+2020-12-01 02:42:41.725 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T01:42:40.000+0000 to 2020-12-01T02:37:47.000+0000
+2020-12-01 02:42:41.748 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.78 ?C to 1.06 ?C
+2020-12-01 02:42:41.772 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.21 ?C to -4.9 ?C
+2020-12-01 02:42:41.803 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.18 ?C to 1.32 ?C
+2020-12-01 02:42:41.806 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.8 ?C to -3.64 ?C
+2020-12-01 02:42:41.808 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.45 ?C to 1.51 ?C
+2020-12-01 02:42:41.811 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.28 ?C to -3.22 ?C
+2020-12-01 02:43:06.745 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:d9075ff1:node4' has been updated.
+2020-12-01 02:43:32.542 [me.event.ThingUpdatedEvent] - Thing 'zwave:device:d9075ff1:node3' has been updated.
+2020-12-01 02:50:57.649 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.3 to 14.1
+2020-12-01 03:06:13.940 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.1 to 14.2
+2020-12-01 03:12:34.479 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.6 ?C to 22.5 ?C
+2020-12-01 03:42:42.441 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T02:37:47.000+0000 to 2020-12-01T03:37:49.000+0000
+2020-12-01 03:42:42.443 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 1.06 ?C to 0.64 ?C
+2020-12-01 03:42:42.478 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.9 ?C to -5.02 ?C
+2020-12-01 03:42:42.513 [vent.ItemStateChangedEvent] - LocalCurrent_Cloudiness changed from 0 % to 75 %
+2020-12-01 03:42:42.516 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.32 ?C to 1.12 ?C
+2020-12-01 03:42:42.528 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.64 ?C to -3.72 ?C
+2020-12-01 03:42:42.532 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 78 % to 79 %
+2020-12-01 03:42:42.535 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 49 % to 87 %
+2020-12-01 03:42:42.537 [vent.ItemStateChangedEvent] - LocalForecastedRain_3 changed from 0.0 mm to 0.043333333333333335 mm
+2020-12-01 03:42:42.539 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.51 ?C to 1.86 ?C
+2020-12-01 03:42:42.544 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.22 ?C to -3.05 ?C
+2020-12-01 03:42:42.547 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 82 % to 80 %
+2020-12-01 03:42:42.551 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 78 % to 95 %
+2020-12-01 03:42:42.553 [vent.ItemStateChangedEvent] - LocalForecastedRain_6 changed from 0.043333333333333335 mm to 0.0 mm
+2020-12-01 04:12:33.547 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.5 ?C to 22.4 ?C
+2020-12-01 04:15:59.117 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.4 ?C to 22.5 ?C
+2020-12-01 04:20:57.644 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.1
+2020-12-01 04:42:43.068 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T03:37:49.000+0000 to 2020-12-01T04:42:42.000+0000
+2020-12-01 04:42:43.103 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.64 ?C to 0.14 ?C
+2020-12-01 04:42:43.110 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.02 ?C to -5.74 ?C
+2020-12-01 04:42:43.115 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 74 % to 83 %
+2020-12-01 04:42:43.123 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.12 ?C to 0.87 ?C
+2020-12-01 04:42:43.126 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.72 ?C to -3.92 ?C
+2020-12-01 04:42:43.130 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 79 % to 83 %
+2020-12-01 04:42:43.143 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.86 ?C to 1.76 ?C
+2020-12-01 04:42:43.146 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.05 ?C to -3.14 ?C
+2020-12-01 04:42:43.148 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 80 % to 81 %
+2020-12-01 04:45:59.094 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.5 ?C to 22.4 ?C
+2020-12-01 04:50:57.648 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.1 to 14.2
+2020-12-01 05:42:43.780 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T04:42:42.000+0000 to 2020-12-01T05:42:43.000+0000
+2020-12-01 05:42:43.785 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.14 ?C to -0.03 ?C
+2020-12-01 05:42:43.812 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.74 ?C to -5.21 ?C
+2020-12-01 05:42:43.831 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 83 % to 84 %
+2020-12-01 05:42:43.833 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.87 ?C to 0.78 ?C
+2020-12-01 05:42:43.845 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.92 ?C to -4.02 ?C
+2020-12-01 05:42:43.848 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.76 ?C to 1.72 ?C
+2020-12-01 05:42:43.855 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.14 ?C to -3.18 ?C
+2020-12-01 06:06:13.851 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.1
+2020-12-01 06:20:57.649 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.1 to 14.2
+2020-12-01 06:28:42.291 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 06:35:20.053 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 06:42:44.526 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T05:42:43.000+0000 to 2020-12-01T06:37:56.000+0000
+2020-12-01 06:42:44.534 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from -0.03 ?C to 0.14 ?C
+2020-12-01 06:42:44.536 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.21 ?C to -5.7 ?C
+2020-12-01 06:42:44.538 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 84 % to 85 %
+2020-12-01 06:42:44.541 [vent.ItemStateChangedEvent] - LocalCurrent_Cloudiness changed from 75 % to 90 %
+2020-12-01 06:42:44.542 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.78 ?C to 1.03 ?C
+2020-12-01 06:42:44.545 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -4.02 ?C to -3.37 ?C
+2020-12-01 06:42:44.546 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 87 % to 95 %
+2020-12-01 06:42:44.549 [vent.ItemStateChangedEvent] - LocalForecastedRain_3 changed from 0.043333333333333335 mm to 0.0 mm
+2020-12-01 06:42:44.550 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.72 ?C to 2.68 ?C
+2020-12-01 06:42:44.553 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.18 ?C to -1.89 ?C
+2020-12-01 06:42:44.554 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 81 % to 76 %
+2020-12-01 06:45:59.088 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.4 ?C to 22.5 ?C
+2020-12-01 06:50:57.646 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.3
+2020-12-01 07:12:30.768 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.5 ?C to 22.4 ?C
+2020-12-01 07:20:57.644 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.3 to 14.2
+2020-12-01 07:42:45.105 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T06:37:56.000+0000 to 2020-12-01T07:37:58.000+0000
+2020-12-01 07:42:45.170 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.7 ?C to -5.72 ?C
+2020-12-01 07:42:45.174 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 85 % to 84 %
+2020-12-01 07:46:04.712 [vent.ItemStateChangedEvent] - SensorLuminance changed from 0 to 3
+2020-12-01 08:12:30.794 [vent.ItemStateChangedEvent] - SensorLuminance changed from 3 to 4
+2020-12-01 08:42:45.714 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T07:37:58.000+0000 to 2020-12-01T08:38:01.000+0000
+2020-12-01 08:42:45.738 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.14 ?C to 0.4 ?C
+2020-12-01 08:42:45.756 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.72 ?C to -5.12 ?C
+2020-12-01 08:42:45.762 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 84 % to 82 %
+2020-12-01 08:42:45.767 [vent.ItemStateChangedEvent] - LocalCurrent_Cloudiness changed from 90 % to 75 %
+2020-12-01 08:42:45.782 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.03 ?C to 1.16 ?C
+2020-12-01 08:42:45.784 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.37 ?C to -3.22 ?C
+2020-12-01 08:42:45.789 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 95 % to 87 %
+2020-12-01 08:42:45.799 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 2.68 ?C to 2.74 ?C
+2020-12-01 08:42:45.801 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -1.89 ?C to -1.82 ?C
+2020-12-01 08:42:45.803 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 95 % to 91 %
+2020-12-01 08:45:59.090 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.4 ?C to 22.3 ?C
+2020-12-01 08:46:04.700 [vent.ItemStateChangedEvent] - SensorLuminance changed from 4 to 5
+2020-12-01 09:05:06.857 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 09:12:05.631 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 09:12:28.894 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.3 ?C to 22.4 ?C
+2020-12-01 09:12:29.884 [vent.ItemStateChangedEvent] - SensorLuminance changed from 5 to 10
+2020-12-01 09:14:30.728 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 09:16:04.775 [vent.ItemStateChangedEvent] - SensorLuminance changed from 10 to 9
+2020-12-01 09:20:57.648 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.1
+2020-12-01 09:23:36.449 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 09:34:50.832 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 09:38:57.168 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 09:42:46.655 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T08:38:01.000+0000 to 2020-12-01T09:42:46.000+0000
+2020-12-01 09:42:46.678 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.4 ?C to 1.22 ?C
+2020-12-01 09:42:46.699 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.12 ?C to -4.59 ?C
+2020-12-01 09:42:46.705 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 82 % to 80 %
+2020-12-01 09:42:46.721 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.16 ?C to 2.27 ?C
+2020-12-01 09:42:46.723 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.22 ?C to -2.33 ?C
+2020-12-01 09:42:46.724 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 83 % to 77 %
+2020-12-01 09:42:46.726 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 87 % to 85 %
+2020-12-01 09:42:46.728 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 2.74 ?C to 1.82 ?C
+2020-12-01 09:42:46.730 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -1.82 ?C to -2.28 ?C
+2020-12-01 09:42:46.731 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 76 % to 83 %
+2020-12-01 09:42:46.733 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 91 % to 80 %
+2020-12-01 09:43:11.744 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 09:45:59.090 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.4 ?C to 22.6 ?C
+2020-12-01 09:46:06.101 [vent.ItemStateChangedEvent] - SensorLuminance changed from 9 to 10
+2020-12-01 09:46:06.739 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 32 to 33
+2020-12-01 09:48:29.038 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 09:50:57.649 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.1 to 14.2
+2020-12-01 09:53:48.634 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 10:03:25.770 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 10:12:28.060 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 33 to 32
+2020-12-01 10:12:28.900 [vent.ItemStateChangedEvent] - SensorLuminance changed from 10 to 52
+2020-12-01 10:14:33.301 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 10:16:04.696 [vent.ItemStateChangedEvent] - SensorLuminance changed from 52 to 46
+2020-12-01 10:19:09.557 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 10:41:12.135 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 10:42:47.336 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T09:42:46.000+0000 to 2020-12-01T10:42:47.000+0000
+2020-12-01 10:42:47.368 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 1.22 ?C to 1.49 ?C
+2020-12-01 10:42:47.378 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.59 ?C to -5.06 ?C
+2020-12-01 10:42:47.379 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 2.27 ?C to 2.41 ?C
+2020-12-01 10:42:47.381 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -2.33 ?C to -2.17 ?C
+2020-12-01 10:42:47.383 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.82 ?C to 1.88 ?C
+2020-12-01 10:42:47.385 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -2.28 ?C to -2.21 ?C
+2020-12-01 10:45:59.090 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.6 ?C to 22.7 ?C
+2020-12-01 10:46:03.429 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 10:46:04.706 [vent.ItemStateChangedEvent] - SensorLuminance changed from 46 to 20
+2020-12-01 10:46:06.380 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 32 to 33
+2020-12-01 10:56:56.686 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 11:03:41.846 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 11:12:28.003 [vent.ItemStateChangedEvent] - SensorLuminance changed from 20 to 23
+2020-12-01 11:22:58.394 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 11:31:07.432 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 11:42:42.388 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 11:42:48.005 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T10:42:47.000+0000 to 2020-12-01T11:38:07.000+0000
+2020-12-01 11:42:48.012 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 1.49 ?C to 1.66 ?C
+2020-12-01 11:42:48.014 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.06 ?C to -3.74 ?C
+2020-12-01 11:42:48.015 [vent.ItemStateChangedEvent] - LocalCurrent_Cloudiness changed from 75 % to 20 %
+2020-12-01 11:42:48.017 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 2.41 ?C to 2.5 ?C
+2020-12-01 11:42:48.018 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -2.17 ?C to -2.07 ?C
+2020-12-01 11:42:48.020 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 85 % to 57 %
+2020-12-01 11:42:48.021 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.88 ?C to 1.92 ?C
+2020-12-01 11:42:48.023 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -2.21 ?C to -2.17 ?C
+2020-12-01 11:42:48.024 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 80 % to 69 %
+2020-12-01 11:44:51.581 [vent.ItemStateChangedEvent] - TamperAlarm changed from 0 to 1
+2020-12-01 11:45:59.094 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.7 ?C to 22.8 ?C
+2020-12-01 11:46:04.707 [vent.ItemStateChangedEvent] - SensorLuminance changed from 23 to 19
+2020-12-01 11:50:34.145 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 11:50:34.150 [vent.ItemStateChangedEvent] - TamperAlarm changed from 1 to 0
+2020-12-01 11:59:13.924 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 12:03:45.919 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 12:12:26.076 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.8 ?C to 22.2 ?C
+2020-12-01 12:12:26.212 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 33 to 31
+2020-12-01 12:12:28.229 [vent.ItemStateChangedEvent] - SensorLuminance changed from 19 to 23
+2020-12-01 12:16:04.698 [vent.ItemStateChangedEvent] - SensorLuminance changed from 23 to 22
+2020-12-01 12:16:05.329 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 31 to 30
+2020-12-01 12:27:01.467 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 12:34:18.445 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 12:42:48.483 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T11:38:07.000+0000 to 2020-12-01T12:39:06.000+0000
+2020-12-01 12:42:48.493 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 1.66 ?C to 2.25 ?C
+2020-12-01 12:42:48.532 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -3.74 ?C to -3.42 ?C
+2020-12-01 12:42:48.538 [vent.ItemStateChangedEvent] - LocalCurrent_Cloudiness changed from 20 % to 0 %
+2020-12-01 12:42:48.539 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 2.5 ?C to 2.11 ?C
+2020-12-01 12:42:48.542 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -2.07 ?C to -1.87 ?C
+2020-12-01 12:42:48.543 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 77 % to 82 %
+2020-12-01 12:42:48.545 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 57 % to 47 %
+2020-12-01 12:42:48.547 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.92 ?C to 1.25 ?C
+2020-12-01 12:42:48.549 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -2.17 ?C to -2.67 ?C
+2020-12-01 12:42:48.551 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 83 % to 86 %
+2020-12-01 12:42:48.552 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 69 % to 71 %
+2020-12-01 12:45:59.091 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.2 ?C to 22.1 ?C
+2020-12-01 12:46:04.723 [vent.ItemStateChangedEvent] - SensorLuminance changed from 22 to 18
+2020-12-01 12:46:05.368 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 30 to 32
+2020-12-01 12:53:44.199 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 13:01:17.019 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 13:12:26.150 [vent.ItemStateChangedEvent] - SensorLuminance changed from 18 to 17
+2020-12-01 13:15:59.146 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.1 ?C to 22.2 ?C
+2020-12-01 13:16:04.755 [vent.ItemStateChangedEvent] - SensorLuminance changed from 17 to 16
+2020-12-01 13:16:05.388 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 32 to 31
+2020-12-01 13:17:22.909 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 13:24:33.692 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 13:42:49.025 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T12:39:06.000+0000 to 2020-12-01T13:42:48.000+0000
+2020-12-01 13:42:49.032 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 2.25 ?C to 1.99 ?C
+2020-12-01 13:42:49.046 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -3.42 ?C to -3.16 ?C
+2020-12-01 13:42:49.066 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 80 % to 74 %
+2020-12-01 13:42:49.083 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 2.11 ?C to 1.98 ?C
+2020-12-01 13:42:49.085 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -1.87 ?C to -2.09 ?C
+2020-12-01 13:42:49.089 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 82 % to 79 %
+2020-12-01 13:42:49.093 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.25 ?C to 1.2 ?C
+2020-12-01 13:42:49.096 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -2.67 ?C to -2.75 ?C
+2020-12-01 13:42:49.098 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 86 % to 85 %
+2020-12-01 13:45:59.087 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.2 ?C to 22.9 ?C
+2020-12-01 13:46:04.695 [vent.ItemStateChangedEvent] - SensorLuminance changed from 16 to 12
+2020-12-01 13:46:05.335 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 31 to 32
+2020-12-01 14:12:24.225 [vent.ItemStateChangedEvent] - SensorTemperature changed from 22.9 ?C to 23.5 ?C
+2020-12-01 14:12:25.203 [vent.ItemStateChangedEvent] - SensorLuminance changed from 12 to 7
+2020-12-01 14:15:59.085 [vent.ItemStateChangedEvent] - SensorTemperature changed from 23.5 ?C to 23.6 ?C
+2020-12-01 14:42:49.827 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T13:42:48.000+0000 to 2020-12-01T14:42:49.000+0000
+2020-12-01 14:42:49.829 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 1.99 ?C to 1.57 ?C
+2020-12-01 14:42:49.851 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -3.16 ?C to -3.63 ?C
+2020-12-01 14:42:49.860 [vent.ItemStateChangedEvent] - LocalCurrent_Cloudiness changed from 0 % to 20 %
+2020-12-01 14:42:49.861 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.98 ?C to 1.76 ?C
+2020-12-01 14:42:49.862 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -2.09 ?C to -2.34 ?C
+2020-12-01 14:42:49.864 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 47 % to 58 %
+2020-12-01 14:42:49.865 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.2 ?C to 1.11 ?C
+2020-12-01 14:42:49.867 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -2.75 ?C to -2.85 ?C
+2020-12-01 14:42:49.868 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 71 % to 75 %
+2020-12-01 14:45:59.082 [vent.ItemStateChangedEvent] - SensorTemperature changed from 23.6 ?C to 24 ?C
+2020-12-01 14:46:04.697 [vent.ItemStateChangedEvent] - SensorLuminance changed from 7 to 1
+2020-12-01 15:12:23.283 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24 ?C to 24.3 ?C
+2020-12-01 15:12:24.260 [vent.ItemStateChangedEvent] - SensorLuminance changed from 1 to 0
+2020-12-01 15:42:50.626 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T14:42:49.000+0000 to 2020-12-01T15:42:50.000+0000
+2020-12-01 15:42:50.641 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 1.57 ?C to 0.92 ?C
+2020-12-01 15:42:50.650 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -3.63 ?C to -4.23 ?C
+2020-12-01 15:42:50.659 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 74 % to 80 %
+2020-12-01 15:42:50.668 [vent.ItemStateChangedEvent] - LocalCurrent_Cloudiness changed from 20 % to 0 %
+2020-12-01 15:42:50.672 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 1.76 ?C to 0.95 ?C
+2020-12-01 15:42:50.674 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -2.34 ?C to -3.05 ?C
+2020-12-01 15:42:50.676 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 79 % to 84 %
+2020-12-01 15:42:50.678 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 58 % to 44 %
+2020-12-01 15:42:50.679 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 1.11 ?C to 0.56 ?C
+2020-12-01 15:42:50.682 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -2.85 ?C to -3.29 ?C
+2020-12-01 15:42:50.684 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 85 % to 88 %
+2020-12-01 15:42:50.686 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 75 % to 20 %
+2020-12-01 15:46:00.040 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.3 ?C to 24.5 ?C
+2020-12-01 15:46:06.278 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 32 to 33
+2020-12-01 15:59:18.998 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 16:03:27.201 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 16:09:23.317 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 16:12:22.360 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.5 ?C to 24 ?C
+2020-12-01 16:12:22.495 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 33 to 28
+2020-12-01 16:13:29.056 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 16:15:59.086 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24 ?C to 24.2 ?C
+2020-12-01 16:42:51.593 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T15:42:50.000+0000 to 2020-12-01T16:42:51.000+0000
+2020-12-01 16:42:51.608 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.92 ?C to 0.3 ?C
+2020-12-01 16:42:51.617 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.23 ?C to -4.06 ?C
+2020-12-01 16:42:51.624 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 80 % to 88 %
+2020-12-01 16:42:51.644 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.95 ?C to 0.63 ?C
+2020-12-01 16:42:51.652 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.05 ?C to -3.39 ?C
+2020-12-01 16:42:51.657 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 84 % to 85 %
+2020-12-01 16:42:51.659 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 0.56 ?C to 0.43 ?C
+2020-12-01 16:42:51.680 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.29 ?C to -3.42 ?C
+2020-12-01 16:42:51.684 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 88 % to 89 %
+2020-12-01 16:45:59.085 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.2 ?C to 24.5 ?C
+2020-12-01 16:46:05.334 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 28 to 30
+2020-12-01 17:12:21.439 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.5 ?C to 24.6 ?C
+2020-12-01 17:12:21.580 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 30 to 31
+2020-12-01 17:42:52.301 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T16:42:51.000+0000 to 2020-12-01T17:42:52.000+0000
+2020-12-01 17:42:52.322 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.3 ?C to 0.15 ?C
+2020-12-01 17:42:52.348 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.06 ?C to -4.27 ?C
+2020-12-01 17:42:52.351 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 88 % to 86 %
+2020-12-01 17:42:52.353 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.63 ?C to 0.5 ?C
+2020-12-01 17:42:52.361 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.39 ?C to -3.64 ?C
+2020-12-01 17:42:52.362 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 85 % to 83 %
+2020-12-01 17:42:52.365 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 44 % to 43 %
+2020-12-01 17:42:52.367 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 0.43 ?C to 0.24 ?C
+2020-12-01 17:42:52.368 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.42 ?C to -3.5 ?C
+2020-12-01 17:42:52.370 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 89 % to 88 %
+2020-12-01 17:42:52.372 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 20 % to 8 %
+2020-12-01 17:46:05.363 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 31 to 32
+2020-12-01 18:12:20.464 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.6 ?C to 24.7 ?C
+2020-12-01 18:12:20.600 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 32 to 33
+2020-12-01 18:31:48.205 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 18:39:37.721 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 18:42:52.931 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T17:42:52.000+0000 to 2020-12-01T18:42:52.000+0000
+2020-12-01 18:42:52.954 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.15 ?C to 0.14 ?C
+2020-12-01 18:42:52.974 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.27 ?C to -4.26 ?C
+2020-12-01 18:42:52.981 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 86 % to 87 %
+2020-12-01 18:42:52.983 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.5 ?C to 0.2 ?C
+2020-12-01 18:42:52.992 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.64 ?C to -3.55 ?C
+2020-12-01 18:42:53.019 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 83 % to 88 %
+2020-12-01 18:42:53.026 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 43 % to 5 %
+2020-12-01 18:42:53.028 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from 0.24 ?C to -0.24 ?C
+2020-12-01 18:42:53.031 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -3.5 ?C to -4.02 ?C
+2020-12-01 18:42:53.033 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 88 % to 92 %
+2020-12-01 18:42:53.036 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 8 % to 16 %
+2020-12-01 18:45:59.084 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.7 ?C to 24.6 ?C
+2020-12-01 18:46:05.334 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 33 to 30
+2020-12-01 19:12:19.559 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.6 ?C to 24.8 ?C
+2020-12-01 19:12:19.695 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 30 to 31
+2020-12-01 19:42:53.649 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T18:42:52.000+0000 to 2020-12-01T19:42:53.000+0000
+2020-12-01 19:42:53.713 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from 0.14 ?C to -0.13 ?C
+2020-12-01 19:42:53.716 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.26 ?C to -4.52 ?C
+2020-12-01 19:42:53.718 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 87 % to 89 %
+2020-12-01 19:42:53.720 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.2 ?C to 0.07 ?C
+2020-12-01 19:42:53.721 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.55 ?C to -3.7 ?C
+2020-12-01 19:42:53.723 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from -0.24 ?C to -0.29 ?C
+2020-12-01 19:42:53.725 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -4.02 ?C to -4.08 ?C
+2020-12-01 19:45:59.096 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.8 ?C to 24.9 ?C
+2020-12-01 19:46:05.362 [vent.ItemStateChangedEvent] - SensorRelativeHumidity changed from 31 to 32
+2020-12-01 20:12:18.631 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.9 ?C to 25 ?C
+2020-12-01 20:28:47.776 [vent.ItemStateChangedEvent] - MotionAlarm changed from 0 to 1
+2020-12-01 20:34:44.977 [vent.ItemStateChangedEvent] - MotionAlarm changed from 1 to 0
+2020-12-01 20:42:54.183 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T19:42:53.000+0000 to 2020-12-01T20:42:54.000+0000
+2020-12-01 20:42:54.191 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from -0.13 ?C to -0.4 ?C
+2020-12-01 20:42:54.197 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -4.52 ?C to -5.16 ?C
+2020-12-01 20:42:54.230 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 89 % to 90 %
+2020-12-01 20:42:54.235 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from 0.07 ?C to -0.07 ?C
+2020-12-01 20:42:54.236 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.7 ?C to -3.85 ?C
+2020-12-01 20:42:54.244 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from -0.29 ?C to -0.35 ?C
+2020-12-01 20:42:54.261 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -4.08 ?C to -4.15 ?C
+2020-12-01 20:42:54.794 [hingStatusInfoChangedEvent] - 'openweathermap:uvindex:api:local' changed from ONLINE to OFFLINE (COMMUNICATION_ERROR): java.io.EOFException: HttpConnectionOverHTTP@5f594b15::DecryptedEndPoint@d3c5a21{api.openweathermap.org/37.139.20.5:443<->/10.42.0.177:40786,OPEN,fill=-,flush=-,to=606/0}
+2020-12-01 20:45:59.082 [vent.ItemStateChangedEvent] - SensorTemperature changed from 25 ?C to 24.9 ?C
+2020-12-01 21:12:17.691 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.9 ?C to 24.4 ?C
+2020-12-01 21:42:55.359 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T20:42:54.000+0000 to 2020-12-01T21:42:55.000+0000
+2020-12-01 21:42:55.367 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from -0.4 ?C to -0.9 ?C
+2020-12-01 21:42:55.370 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -5.16 ?C to -6.15 ?C
+2020-12-01 21:42:55.373 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 90 % to 86 %
+2020-12-01 21:42:55.394 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from -0.07 ?C to -0.63 ?C
+2020-12-01 21:42:55.396 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -3.85 ?C to -4.5 ?C
+2020-12-01 21:42:55.399 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 88 % to 90 %
+2020-12-01 21:42:55.404 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_3 changed from 5 % to 10 %
+2020-12-01 21:42:55.406 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from -0.35 ?C to -0.7 ?C
+2020-12-01 21:42:55.411 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -4.15 ?C to -4.63 ?C
+2020-12-01 21:42:55.414 [vent.ItemStateChangedEvent] - LocalForecastedCloudiness_6 changed from 16 % to 0 %
+2020-12-01 21:42:55.504 [hingStatusInfoChangedEvent] - 'openweathermap:uvindex:api:local' changed from OFFLINE (COMMUNICATION_ERROR): java.io.EOFException: HttpConnectionOverHTTP@5f594b15::DecryptedEndPoint@d3c5a21{api.openweathermap.org/37.139.20.5:443<->/10.42.0.177:40786,OPEN,fill=-,flush=-,to=606/0} to ONLINE
+2020-12-01 21:45:59.082 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.4 ?C to 24.2 ?C
+2020-12-01 22:12:16.761 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24.2 ?C to 24 ?C
+2020-12-01 22:42:55.913 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T21:42:55.000+0000 to 2020-12-01T22:42:55.000+0000
+2020-12-01 22:42:55.972 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from -0.9 ?C to -1.34 ?C
+2020-12-01 22:42:55.977 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -6.15 ?C to -6.29 ?C
+2020-12-01 22:42:55.978 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from -0.63 ?C to -0.85 ?C
+2020-12-01 22:42:55.980 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -4.5 ?C to -4.75 ?C
+2020-12-01 22:42:55.982 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from -0.7 ?C to -0.79 ?C
+2020-12-01 22:42:55.984 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -4.63 ?C to -4.73 ?C
+2020-12-01 22:45:59.100 [vent.ItemStateChangedEvent] - SensorTemperature changed from 24 ?C to 23.8 ?C
+2020-12-01 23:06:13.390 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.2 to 14.1
+2020-12-01 23:12:15.834 [vent.ItemStateChangedEvent] - SensorTemperature changed from 23.8 ?C to 23.6 ?C
+2020-12-01 23:42:56.817 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T22:42:55.000+0000 to 2020-12-01T23:42:56.000+0000
+2020-12-01 23:42:56.883 [vent.ItemStateChangedEvent] - localCurrentTemperature changed from -1.34 ?C to -1.79 ?C
+2020-12-01 23:42:56.896 [vent.ItemStateChangedEvent] - localCurrentApparentTemperature changed from -6.29 ?C to -6.55 ?C
+2020-12-01 23:42:56.899 [vent.ItemStateChangedEvent] - localCurrentHumidity changed from 86 % to 80 %
+2020-12-01 23:42:56.902 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_3 changed from -0.85 ?C to -1.08 ?C
+2020-12-01 23:42:56.904 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_3 changed from -4.75 ?C to -5.06 ?C
+2020-12-01 23:42:56.908 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_3 changed from 90 % to 87 %
+2020-12-01 23:42:56.911 [vent.ItemStateChangedEvent] - LocalForecastedTemperature_6 changed from -0.79 ?C to -0.89 ?C
+2020-12-01 23:42:56.930 [vent.ItemStateChangedEvent] - LocalForecastedApparentTemperature_6 changed from -4.73 ?C to -4.86 ?C
+2020-12-01 23:42:56.931 [vent.ItemStateChangedEvent] - LocalForecastedHumidity_6 changed from 92 % to 91 %
+2020-12-01 23:45:59.084 [vent.ItemStateChangedEvent] - SensorTemperature changed from 23.6 ?C to 23.4 ?C
+2020-12-01 23:50:57.674 [vent.ItemStateChangedEvent] - WallPlugSwitch_SensorPower_1 changed from 14.1 to 14.2
+2020-12-02 00:42:57.352 [vent.ItemStateChangedEvent] - localLastmeasurement changed from 2020-12-01T23:42:56.000+0000 to 2020-12-02T00:38:30.000+0000
+2020-12-02 00:42:57.519 [vent.ItemStateChangedEvent] - localCurrentUVIndexTimestamp changed from 2020-12-01T12:00:00.000+0000 to 2020-12-02T12:00:00.000+0000

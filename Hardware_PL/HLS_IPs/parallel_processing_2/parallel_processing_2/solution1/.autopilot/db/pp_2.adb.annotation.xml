@@ -1,0 +1,6 @@
+<annotationInfo>
+<item  id="35" filename="pp_core_2.cpp" linenumber="14" name="icmp_ln14" contextFuncName="pp_2" moduleName="pp_2" rtlName="icmp_ln14_fu_126_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="11" fileDirectory="/home/jaswanth/workspace/hls_ip/parallel_processing_2"><\/item>
+<item  id="37" filename="pp_core_2.cpp" linenumber="14" name="idx" contextFuncName="pp_2" moduleName="pp_2" rtlName="idx_fu_132_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="15" fileDirectory="/home/jaswanth/workspace/hls_ip/parallel_processing_2"><\/item>
+<item  id="50" filename="pp_core_2.cpp" linenumber="21" name="shl_ln68" contextFuncName="pp_2" moduleName="pp_2" rtlName="shl_ln68_fu_166_p2" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="/home/jaswanth/workspace/hls_ip/parallel_processing_2"><\/item>
+<item  id="51" filename="pp_core_2.cpp" linenumber="21" name="valOut_data_V" contextFuncName="pp_2" moduleName="pp_2" rtlName="outStream_TDATA_int" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="/home/jaswanth/workspace/hls_ip/parallel_processing_2"><\/item>
+</annotationInfo>

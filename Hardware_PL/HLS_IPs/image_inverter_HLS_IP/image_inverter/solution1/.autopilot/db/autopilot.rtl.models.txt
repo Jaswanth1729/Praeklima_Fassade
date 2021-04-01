@@ -1,0 +1,2 @@
+regslice_core
+image_inverter1

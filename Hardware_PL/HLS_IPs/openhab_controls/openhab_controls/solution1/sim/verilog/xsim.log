@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Mar 26 13:11:11 2021
+# Process ID: 28393
+# Current directory: /home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/openhab_controls/xsim_script.tcl}
+# Log file: /home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/xsim.log
+# Journal file: /home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/openhab_controls/xsim_script.tcl
+# xsim {openhab_controls} -autoloadwcfg -tclbatch {openhab_controls.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source openhab_controls.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "655000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 695 ns : File "/home/jaswanth/Praeklima/Hardware_PL/HLS_IPs/openhab_controls/openhab_controls/solution1/sim/verilog/openhab_controls.autotb.v" Line 486
+## quit
+INFO: [Common 17-206] Exiting xsim at Fri Mar 26 13:11:22 2021...

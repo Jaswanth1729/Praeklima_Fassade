@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Mar  9 14:21:23 2021
+# Process ID: 25402
+# Current directory: /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/image_inverter1/xsim_script.tcl}
+# Log file: /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog/xsim.log
+# Journal file: /home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/image_inverter1/xsim_script.tcl
+# xsim {image_inverter1} -autoloadwcfg -tclbatch {image_inverter1.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source image_inverter1.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "10155000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 10195 ns : File "/home/jaswanth/WORK/DAC_SDC/image_inverter/solution1/sim/verilog/image_inverter1.autotb.v" Line 260
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Mar  9 14:21:34 2021...

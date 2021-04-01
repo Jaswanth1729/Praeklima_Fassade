@@ -1,0 +1,7 @@
+sv work "glbl.v"
+sv xil_defaultlib "openhab_controls.v"
+sv xil_defaultlib "openhab_controls.autotb.v"
+sv xil_defaultlib "AESL_autobram_inputData_V.v"
+sv xil_defaultlib "AESL_autobram_outData.v"
+sv xil_defaultlib "AESL_autobram_thresholds_V.v"
+
