@@ -10,7 +10,7 @@ This directory has the information about the working flow of Vitis AI for Ultra9
 
 ### Hardware PL: 
 This directory has 3 sub directories which are listed below.
-1. HLS_IPs: contains custom IPs designed using Vivado HLS (along with project files to recreate). 
+1. HLS_IPs: Contains custom IPs designed using Vivado HLS (along with project files to recreate). 
 2. Vivado_designs: .bin, .hwh and .tcl files for recreating Block diagrams using designed IPs using Vivado
 3. Pynq_overlays: Contains the jupytor notebooks to create overlays for each project using .bit and .hwh files.
 
