@@ -3,11 +3,10 @@
 ## Directory contents 
 ### DPU-PYNQ-Overlays: 
 This directory has the information about the working flow of Vitis AI for Ultra96 as an Edge device, which includes
-Markup :
-		1  How to generate custom Deep learning Processing Unit (DPU) for Ultra96?
-		2. How to train our Machile learning model with respect to DPU (for Ultra96)?
-		3. How to create overlay for deploying DPU in Processing Logic (PL) and work on our trained machine learning model.
-		4. You can find some example DPU bit streams and config file.
+Markup :1  How to generate custom Deep learning Processing Unit (DPU) for Ultra96?
+	2. How to train our Machile learning model with respect to DPU (for Ultra96)?
+	3. How to create overlay for deploying DPU in Processing Logic (PL) and work on our trained machine learning model.
+	4. You can find some example DPU bit streams and config file.
 
 ### Hardware PL: 
 This directory has 3 sub directories which are listed below.
