@@ -1,5 +1,6 @@
 # List of projects using PYNQ Overlays on Ultra96
 Each project has a jupyter notebook to create overlay and .bit and .hwh files.
+Check jupyter notebook for understanding the project and working on PYNQ Overlays. 
 
 Projects 	          | Description
 --------------------------|------------
