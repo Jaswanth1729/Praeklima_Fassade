@@ -1,2 +1,0 @@
-regslice_core
-pp_2
