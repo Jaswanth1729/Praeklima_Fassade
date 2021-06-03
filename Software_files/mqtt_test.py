@@ -1,93 +1,69 @@
-import sys
-
 import paho.mqtt.client as mqtt
+import requests
 import time
-from queue import Queue
+from datetime import datetime
 
-q = Queue()
-messages = []
+#Dictonary of MQTT Feeds/topics, add the topics of the broker in this Dictonary
+column = ['topic/LEDControl1_Switch', 
+          'casenio/event/89490200001132903918/7/1/JSON', 'casenio/event/89490200001132903918/8/1/JSON','casenio/event/89490200001132903918/9/1/JSON',
+          'casenio/event/89490200001132903918/10/1/JSON', 'casenio/event/89490200001132903918/11/1/JSON', 
+          'casenio/event/89490200001132903918/7/5/JSON', 'casenio/event/89490200001132903918/8/5/JSON','casenio/event/89490200001132903918/9/5/JSON',
+          'casenio/event/89490200001132903918/10/5/JSON', 'casenio/event/89490200001132903918/11/5/JSON']
+#Openhab items, where the MQTT topics data is to be stored on Openhab items, "place the list in the same order as MQTT topics"
+openhab_item_names = ['LEDControl1_Switch', 'sensor1_temperature', 'sensor2_temperature','sensor3_temperature','sensor4_temperature','sensor5_temperature',
+                     'sensor1_humidity', 'sensor2_humidity', 'sensor3_humidity', 'sensor4_humidity', 'sensor5_humidity']
 
-
+print("PAHO_MQTT")
+# The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
     if rc == 0:
-        client.connected_flag = True  # set flag
-        print("connected OK")
+        print("Connected successfully")
     else:
-        print("Bad connection Returned code=", rc)
-        client.bad_connection_flag = True
+        print("Connect returned result code: " + str(rc))
+payload = 0
+# The callback for when a PUBLISH message is received from the server.
+# Callback Definition: subscribed topics data will be received and will commit that data to the respective openhab item
+def on_message(client, userdata, msg):
+    print("Received message: " + msg.topic + " -> " + msg.payload.decode("utf-8"))
+    for i in range(len(column)):
+        if(msg.topic == column[i]):
+            payload_received = msg.payload.decode("utf-8")
+            print(payload_received[7:12])
+            print(i)
+            print(openhab_item_names[i])
+            payload = payload_received[7:11]
+            url = "http://192.168.3.1:8080/rest/items/" + openhab_item_names[i]  # URL to publish or to send command to Wall-Plug  with payload OFF
+            # print(payload + "for LEDSwitch")
+            headers = {'Content-type': 'text/plain', 'Accept': 'application/json'}
+            status = requests.post(url, headers=headers, data=payload)
+#             print(openhab_item_names[i] +" set to " + payload +": " + str(status))
+            status_str = str(status)
+            if(status_str[len(status_str) -5 :len(status_str) -2] != "200"):
+                print("Error status is " + str(status_str))
+                
+                
+                    
 
+# create the client
+client = mqtt.Client()
+client.on_connect = on_connect
+client.on_message = on_message
 
-def on_message(client1, userdata, message):
-    # global messages
-    m = "message received  ", str(message.payload.decode("utf-8"))
-    n = str(message.payload.decode("utf-8"))
-    print(n, type(n))
-    messages.append(m)  # put messages in list
-    q.put(m)  # put messages on queue
-    print("message received  ", m)
+# enable TLS
+client.tls_set(tls_version=mqtt.ssl.PROTOCOL_TLS)
 
+# set username and password
+client.username_pw_set("praeklima", "Praeklima2021")
 
-def on_publish(client, userdata, mid):
-    global messages
-    m = "on publish callback mid " + str(mid)
-    # messages.append(m)
+# connect to HiveMQ Cloud on port 8883
+client.connect("fb06b8022fb941089214e0f7b7025453.s1.eu.hivemq.cloud", 8883) #client.connect(<MQTT ip address/hostname>, <port number>)  
 
+# subscribe to the topics
+for i in range(len(column)):
+    client.subscribe(column[i])
 
-def on_subscribe(client, userdata, mid, granted_qos):
-    m = "on_subscribe callback mid " + str(mid)
+# publish Data to the topic "my/LEDControl1_Switch"
+client.publish("topic/LEDControl1_Switch", "OFF")
 
-
-def on_disconnect(client, userdata, rc=0):
-    print("DisConnected result code " + str(rc))
-    client.loop_stop()
-
-
-mqtt.Client.connected_flag = False  # create flag in class
-mqtt.Client.bad_connection_flag = False
-QOS = 0
-broker = "192.168.209.215"
-port = 8883
-client = mqtt.Client("system1")  # create new instance
-client.on_connect = on_connect  # bind call back function
-client.on_message = on_message  # attach function to callback
-client.on_publish = on_publish  # attach function to callback
-client.on_subscribe = on_subscribe  # attach function to callback
-time.sleep(1)
-client.username_pw_set(username="praeklima", password="praeklima")
-
-client.loop_start()
-print("Connecting to broker ", broker)
-client.connect(broker, port)  # connect to broker
-# try:
-#     client.connect(broker, port)  # connect to broker
-# except:
-#     print("connection failed")
-#     exit(1)
-
-
-while not client.connected_flag and not client.bad_connection_flag:  # wait in loop
-    print("In wait loop")
-    time.sleep(0.1)
-
-if client.bad_connection_flag:
-    client.loop_stop()  # Stop loop
-    sys.exit()
-print("in Main Loop")
-client.publish("test", "ON")
-print("Subscribing to topic", "sub_test")
-client.subscribe("sub_test", QOS)
-
-# while len(messages)>0:
-#     print(messages.pop(0))
-#
-# while not q.empty():
-#     message = q.get()
-#     print("queue: ",message)
-
-try:
-    while True:
-        time.sleep(1)
-except KeyboardInterrupt:
-    print("exiting")
-    client.disconnect()  # disconnect
-    client.loop_stop()  # Stop loop
+# Blocking call that processes network traffic, dispatches callbacks and handles reconnecting.
+client.loop_forever()
