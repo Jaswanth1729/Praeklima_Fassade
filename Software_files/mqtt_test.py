@@ -28,9 +28,6 @@ def on_message(client, userdata, msg):
     for i in range(len(column)):
         if(msg.topic == column[i]):
             payload_received = msg.payload.decode("utf-8")
-            print(payload_received[7:12])
-            print(i)
-            print(openhab_item_names[i])
             payload = payload_received[7:11]
             url = "http://192.168.3.1:8080/rest/items/" + openhab_item_names[i]  # URL to publish or to send command to Wall-Plug  with payload OFF
             # print(payload + "for LEDSwitch")
