@@ -13,5 +13,7 @@ Fassade to Openhab communication has 3 main blocks
 		We can control/visualize the sensors and actuator status using  Openhab's Habpanel/PaperUI. 	
 
 Email ID for Openhab cloud service, remote.it, open weather api, HiveMQ services are 
+credebtials 	|	value
+----------------|-------------------
 ID 		|	praeklima.tud@gmail.com
 password	|	praeklima_tud@2021
