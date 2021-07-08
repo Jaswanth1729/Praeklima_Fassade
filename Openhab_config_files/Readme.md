@@ -17,3 +17,10 @@ credebtials 	|	value
 ----------------|-------------------
 ID 		|	praeklima.tud@gmail.com
 password	|	praeklima_tud@2021
+
+MySQL Database
+Casenio systems sends Sensors/actuators data to MYSQL database in schema "tudresden" as table "events" (tudresden.events).
+tudresden schema has 3 tables
+1. events: Which has sensors and actuator data from MQTT server running on casenio system.
+2. sensor_features: sensor features list
+3. Openhab data: Openhab sends data to this tabel for every 30 seconds using sql-connector library.
