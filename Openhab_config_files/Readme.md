@@ -1,5 +1,5 @@
 # Fassade Setup
-![Fassade to Openhab data communication](Praeklima_fassade/Openhab_config_files/images/fassade_flow_diagram.png)
+![Fassade to Openhab data communication](images/fassade_flow_diagram.png)
 
 Fassade to Openhab communication has 3 main blocks 
 1. Casenio System
