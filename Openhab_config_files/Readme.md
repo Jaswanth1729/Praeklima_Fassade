@@ -24,3 +24,10 @@ tudresden schema has 3 tables
 1. events: Which has sensors and actuator data from MQTT server running on casenio system.
 2. sensor_features: sensor features list
 3. Openhab data: Openhab sends data to this tabel for every 30 seconds using sql-connector library.
+
+credebtials 	|	value
+----------------|-------------------
+hostname	|	daten.praeklima.de
+Port		|	3308
+username 	|	tudresden
+password	|	praeklima_tud@2021
