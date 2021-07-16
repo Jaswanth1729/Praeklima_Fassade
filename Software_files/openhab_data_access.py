@@ -10,7 +10,7 @@ def openhab_read_data(openhab_url, item_name):
     res = requests.get(url)
     value = res.text
     # print(value)
-    return float(value[0:4])
+    return float(value)
 
 
 def openhab_read_list_data(openhab_url, items_list):
@@ -19,7 +19,7 @@ def openhab_read_list_data(openhab_url, items_list):
         url = openhab_url + items_list[i] + "/state"  # accessing data from items
         res = requests.get(url)
         value = res.text
-        output_data.append(float(value[0:4]))
+        output_data.append(float(value))
     # print(output_data)
     return output_data
 
