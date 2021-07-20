@@ -30,4 +30,4 @@ credebtials 	|	value
 hostname	|	daten.praeklima.de
 Port		|	3308
 username 	|	tudresden
-password	|	praeklima_tud@2021
+password	|	k-Dnn1Qqw.sddFI
