@@ -1,7 +1,7 @@
 # Fassade Setup
 ![Fassade to Openhab data communication](images/fassade_flow_diagram.png)
 
-Fassade to Openhab communication has 3 main blocks 
+## Fassade to Openhab communication has 3 main blocks 
 1. Casenio System: 
 		Sensors and actuators are connected to this Casenio system via Z-wave and MQTT.
 		Casenio Systems uses MQTT to transmit data to HiveMQ cloud broker 
@@ -18,7 +18,7 @@ credebtials 	|	value
 ID 		|	praeklima.tud@gmail.com
 password	|	praeklima_tud@2021
 
-MySQL Database
+### MySQL Database
 Casenio systems sends Sensors/actuators data to MYSQL database in schema "tudresden" as table "events" (tudresden.events).
 tudresden schema has 3 tables
 1. events: Which has sensors and actuator data from MQTT server running on casenio system.
@@ -31,3 +31,11 @@ hostname	|	daten.praeklima.de
 Port		|	3308
 username 	|	tudresden
 password	|	k-Dnn1Qqw.sddFI
+
+### Casenio system
+https://einrichtung.casenio.de/home
+credebtials 	|	value
+----------------|-------------------
+hostname	|	31441144 
+Port		|	casenio
+
