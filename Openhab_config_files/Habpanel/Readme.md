@@ -3,11 +3,11 @@ Import .json file into the local storage habpanel config file in Habpanel to cre
 Follow the below steps.
 
 1.  Go to Habpanel Settings 
-![Opehhab Habpanel settings](/images/Screenshot (13).png)
+![Opehhab Habpanel settings](images/Screenshot (13).png)
 
 2.  Click local panel confifuration 
-![local panel confifuration](/images/Screenshot (16).png) 
+![local panel confifuration](images/Screenshot (16).png) 
 
 3. Copy and paste the Json script and save it or Import the Json file here.
-![local panel confifuration](/images/Screenshot (15).png) 
+![local panel confifuration](images/Screenshot (15).png) 
 All Habpanels will be created using the Json script after saving it.
