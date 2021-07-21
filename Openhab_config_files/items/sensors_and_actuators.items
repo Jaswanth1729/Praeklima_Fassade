@@ -1,100 +1,155 @@
 Group Indoor_temperature
 Group Outdoor_temperature
+Group Indoor_humidity
+Group Outdoor_humidity
+Group z_weather_sensor_1
+Group z_weather_sensor_2
+Group Air_Quality_sensor_1
+Group Air_Quality_sensor_2
 
-Number Temperature_25 "Temperature ID 25 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_26 "Temperature ID 26 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_27 "Temperature ID 27 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_28 "Temperature ID 28 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_29 "Temperature ID 29 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_30 "Temperature ID 30 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_31 "Temperature ID 31 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_32 "Temperature ID 32 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_33 "Temperature ID 33 [%.1f °C]" <temperature> (Indoor_temperature) 
-Number Temperature_34 "Temperature ID 34 [%.1f °C]" <temperature> (Indoor_temperature) 
+Number Temperature_25 "Temperature ID 25 [%.2f °C]" <temperature> (Indoor_temperature) 
+Number Temperature_26 "Temperature ID 26 [%.2f °C]" <temperature> (Indoor_temperature) 
+Number Temperature_27 "Temperature ID 27 [%.2f °C]" <temperature> (Indoor_temperature) 
 
-Switch Socket_Switch_1 "Socket_Switch_1" <wallswitch>
-Number Socket_Power_1 "Socket_Power_1 [%.1f W]" <poweroutlet>
-Number Socket_Energy_1 "Socket_Energy_1 [%.3f kWh]" <energy> 
-
-Switch Socket_Switch_2 "Socket_Switch_2" <wallswitch>
-Number Socket_Power_2 "Socket_Power_2 [%.1f W]" <poweroutlet>
-Number Socket_Energy_2 "Socket_Energy_2 [%.3f kWh]" <energy> 
-
-Switch Socket_Switch_3 "Socket_Switch_3" <wallswitch>
-Number Socket_Power_3 "Socket_Power_3 [%.1f W]" <poweroutlet>
-Number Socket_Energy_3 "Socket_Energy_3 [%.3f kWh]" <energy> 
-
-Switch Socket_Switch_4 "Socket_Switch_4" <wallswitch>
-Number Socket_Power_4 "Socket_Power_4 [%.1f W]" <poweroutlet>
-Number Socket_Energy_4 "Socket_Energy_4 [%.3f kWh]" <energy> 
-
-Number Brightness_Sensor_Ambient_Brightness_1 "Brightness_Sensor_Ambient_Brightness_1 [%.0f %%]"
-Number Brightness_Sensor_Battery_1 "Brightness_Sensor_Battery_1 [%.0f ]" <battery>
-Number Brightness_Sensor_Motion_detection_1 "Brightness_Sensor_Motion_detection_1 <motion>
-Number Brightness_sensor_temperature_1 "Brightness_sensor_temperature_1 [%.2f °C]" <temperature> (Indoor_temperature)
-
-Number Brightness_Sensor_Ambient_Brightness_2 "Brightness_Sensor_Ambient_Brightness_2 [%.0f %%]"
-Number Brightness_Sensor_Battery_2 "Brightness_Sensor_Battery_2 [%.0f ]" <battery>
-Number Brightness_Sensor_Motion_detection_2 "Brightness_Sensor_Motion_detection_2 <motion>
-Number Brightness_Sensor_Temperature_2 "Brightness_Sensor_Temperature_2 [%.2f °C]" <temperature> (Indoor_temperature)
-
-Number sensor1_temperature "sensor1_temperature [%.2f °C]" <temperature> (Outdoor_temperature)
-Number sensor2_temperature "sensor2_temperature [%.2f °C]" <temperature> (Outdoor_temperature)
-Number sensor3_temperature "sensor3_temperature [%.2f °C]" <temperature> (Outdoor_temperature)
-Number sensor4_temperature "sensor4_temperature [%.2f °C]" <temperature> (Outdoor_temperature)
-Number sensor5_temperature "sensor5_temperature [%.2f °C]" <temperature> (Outdoor_temperature)
+Number sensor1_temperature "sensor1_temperature [%.2f °C]" <temperature> 
+Number sensor2_temperature "sensor2_temperature [%.2f °C]" <temperature> 
+Number sensor3_temperature "sensor3_temperature [%.2f °C]" <temperature> (Indoor_temperature)
+Number sensor4_temperature "sensor4_temperature [%.2f °C]" <temperature> 
+Number sensor5_temperature "sensor5_temperature [%.2f °C]" <temperature> (Indoor_temperature)
 
 Number sensor1_humidity "sensor1_humidity [%.1f %%]" <humidity> 
 Number sensor2_humidity "sensor2_humidity [%.1f %%]" <humidity> 
-Number sensor3_humidity "sensor3_humidity [%.1f %%]" <humidity> 
+Number sensor3_humidity "sensor3_humidity [%.1f %%]" <humidity> (Indoor_humidity)
 Number sensor4_humidity "sensor4_humidity [%.1f %%]" <humidity> 
-Number sensor5_humidity "sensor5_humidity [%.1f %%]" <humidity> 
+Number sensor5_humidity "sensor5_humidity [%.1f %%]" <humidity> (Indoor_humidity)
 
-Number Weather_Station_Air_Pressure_1 "Weather_Station_Air_Pressure_1" <pressure>
-Number Weather_Station_Battery_1 "Weather_Station_Battery_1" <battery>  
-Number Weather_Station_Dew_Point_1 "Weather_Station_Dew_Point_1"  
-Number Weather_Station_Electricity_meter_1 "Weather_Station_Electricity_meter_1" <energy>  
-Number Weather_Station_Heat_meter_1 "Weather_Station_Heat_meter_1"   
-Number Weather_Station_Humidity_1 "Weather_Station_Humidity_1" <humidity>  
-Number Weather_Station_Luminance_1 "Weather_Station_Luminance_1" <light>  
-Number Weather_Station_Temperature_1 "Weather_Station_Temperature_1" <temperature>  
-Number Weather_Station_Wind_Speed_1 "Weather_Station_Wind_Speed_1" <wind> 
+Switch Socket_Switch_1 "Socket_Switch_1" <wallswitch>
+Number Socket_Power_1 "Socket_Power_1 [%.1f ]" <poweroutlet>
+Number Socket_Energy_1 "Socket_Energy_1 [%.3f]" <energy> 
 
-Number AIR_Quality_Sensor_CO2_2 "AIR_Quality_Sensor_CO2_2 [%.1f]" <carbondioxide> 
-Number AIR_Quality_Sensor_Dew_point_2 "AIR_Quality_Sensor_Dew_point_2 [%.1f]"
-Number AIR_Quality_Sensor_Humidity_2 "AIR_Quality_Sensor_Humidity_2 [%.1f %%]" <humidity> 
-Number AIR_Quality_Sensor_Temperature_2 "AIR_Quality_Sensor_Temperature_2 [%.2f °C]" <temperature> 
-Number AIR_Quality_Sensor_VOC_2 "AIR_Quality_Sensor_VOC_2 [%.3f]"  
-Switch AirQualitySensor_AlarmHOME_HEALTH_2 "AirQualitySensor_AlarmHOME_HEALTH_2 " <alarm> 
+Switch Socket_Switch_2 "Socket_Switch_2" <wallswitch>
+Number Socket_Power_2 "Socket_Power_2 [%.1f ]" <poweroutlet>
+Number Socket_Energy_2 "Socket_Energy_2 [%.3f]" <energy> 
 
-Number AirQualitySensor_SensorCO2 "AirQualitySensor_SensorCO2 [%.1f]" <carbondioxide> 
-Number AirQualitySensor_SensorDewPoint "AirQualitySensor_SensorDewPoint [%.1f]"
-Number AirQualitySensor_SensorRelativeHumidity "AirQualitySensor_SensorRelativeHumidity [%.1f %%]" <humidity> 
-Number AirQualitySensor_SensorTemperature "AirQualitySensor_SensorTemperature [%.2f °C]" <temperature> 
-Number AirQualitySensor_SensorVOLATILE_ORGANIC_COMPOUND "AirQualitySensor_SensorVOLATILE_ORGANIC_COMPOUND [%.3f]"  
-Switch AirQualitySensor_AlarmHOME_HEALTH "AirQualitySensor_AlarmHOME_HEALTH" <alarm> 
+Switch Socket_Switch_3 "Socket_Switch_3" <wallswitch>
+Number Socket_Power_3 "Socket_Power_3 [%.1f ]" <poweroutlet>
+Number Socket_Energy_3 "Socket_Energy_3 [%.3f]" <energy> 
 
-Number Enocean_Humidy_1 "Enocean_Humidity_1 [%.1f %%]" <humidity>
-Number Enocean_Temperature_1 "Enocean_Temperature_1 [%.2f °C] <temperature> 
+Switch Socket_Switch_4 "Socket_Switch_4" <wallswitch>
+Number Socket_Power_4 "Socket_Power_4 [%.1f ]" <poweroutlet>
+Number Socket_Energy_4 "Socket_Energy_4 [%.3f]" <energy> 
 
-Number Luminance_Sensor_Battery_1 "Luminance_Sensor_Battery_1 [%.0f %%]" <battery> 
-Number Luminance_Sensor_Luminance_1 "Luminance_Sensor_Luminance_1 [%.1f Lux]" <light> 
+Number Brightness_Sensor_Ambient_Brightness_1 "Brightness_Sensor_Ambient_Brightness_1 "
+Number Brightness_Sensor_Battery_1 "Brightness_Sensor_Battery_1"  <battery>
+Switch Brightness_Sensor_Motion_detection_1 "Brightness_Sensor_Motion_detection_1" <motion>
+Number Brightness_sensor_temperature_1 "Brightness_sensor_temperature_1 " <temperature> (Indoor_temperature)
 
-Number Luminance_Sensor_Battery_2 "Luminance_Sensor_Battery_2 [%.0f %%]" <battery> 
-Number Luminance_Sensor_Luminance_2 "Luminance_Sensor_Luminance_2 [%.1f Lux]" <light> 
+Number Brightness_Sensor_Ambient_Brightness_2 "Brightness_Sensor_Ambient_Brightness_2 "
+Number Brightness_Sensor_Battery_2 "Brightness_Sensor_Battery_2 " <battery>
+Switch Brightness_Sensor_Motion_detection_2 "Brightness_Sensor_Motion_detection_2" <motion>
+Number Brightness_Sensor_Temperature_2 "Brightness_Sensor_Temperature_2 " <temperature> (Indoor_temperature)
 
-Number Rain_Sensor_Precipitation_1 "Rain_Sensor_Precipitation_1 [%.1f]" <rain>
-Number Rain_Sensor_Water_Meter_1 "Rain_Sensor_Water_Meter_1 [%.3f]" <water>
-Number Rain_Sensor_Battery_1 "Rain_Sensor_Battery_1 [%.0f %%] <battery>
+Number Weather_Station_Air_Pressure_1 "Weather_Station_Air_Pressure_1" <pressure> (z_weather_sensor_1)
+Number Weather_Station_Dew_Point_1 "Weather_Station_Dew_Point_1" (z_weather_sensor_1)
+Number Weather_Station_Electricity_meter_1 "Weather_Station_Electricity_meter_1" <energy> 
+Number Weather_Station_Heat_meter_1 "Weather_Station_Heat_meter_1" 
+Number Weather_Station_Humidity_1 "Weather_Station_Humidity_1" <humidity> (z_weather_sensor_1)
+Number Weather_Station_Luminance_1 "Weather_Station_Luminance_1" <light> (z_weather_sensor_1)
+Number Weather_Station_Temperature_1 "Weather_Station_Temperature_1" <temperature> (z_weather_sensor_1)
+Number Weather_Station_Wind_Speed_1 "Weather_Station_Wind_Speed_1" <wind> (z_weather_sensor_1)
 
-Number Rain_Sensor_Precipitation_2 "Rain_Sensor_Precipitation_2 [%.1f]" <rain>
-Number Rain_Sensor_Water_Meter_2 "Rain_Sensor_Water_Meter_2 [%.3f]" <water>
-Number Rain_Sensor_Battery_2 "Rain_Sensor_Battery_2 [%.0f %%] <battery>
+Number Weather_Station_Air_Pressure_2 "Weather_Station_Air_Pressure_2" <pressure> (z_weather_sensor_2)
+Number Weather_Station_Dew_Point_2 "Weather_Station_Dew_Point_2" (z_weather_sensor_2)
+Number Weather_Station_Electricity_meter_2 "Weather_Station_Electricity_meter_2" <energy> 
+Number Weather_Station_Heat_meter_2 "Weather_Station_Heat_meter_2" 
+Number Weather_Station_Humidity_2 "Weather_Station_Humidity_2" <humidity> (z_weather_sensor_2)
+Number Weather_Station_Luminance_2 "Weather_Station_Luminance_2" <light> (z_weather_sensor_2)
+Number Weather_Station_Temperature_2 "Weather_Station_Temperature_2" <temperature> (z_weather_sensor_2)
+Number Weather_Station_Wind_Speed_2 "Weather_Station_Wind_Speed_2" <wind> (z_weather_sensor_2)
 
- 
+Number AIR_Quality_Sensor_CO2_2 "AIR_Quality_Sensor_CO2_2 " <carbondioxide> (Air_Quality_sensor_1)
+String AIR_Quality_Sensor_CO2_2_time_stamp "AIR_Quality_Sensor_CO2_2_time_stamp "
+Number AIR_Quality_Sensor_Dew_point_2 "AIR_Quality_Sensor_Dew_point_2 " (Air_Quality_sensor_1)
+Number AIR_Quality_Sensor_Humidity_2 "AIR_Quality_Sensor_Humidity_2 " <humidity> (Air_Quality_sensor_1)
+Number AIR_Quality_Sensor_Temperature_2 "AIR_Quality_Sensor_Temperature_2 " <temperature> (Air_Quality_sensor_1)
+Number AIR_Quality_Sensor_VOC_2 "AIR_Quality_Sensor_VOC_2 " (Air_Quality_sensor_1)
+Switch AirQualitySensor_AlarmHOME_HEALTH_2 "AirQualitySensor_AlarmHOME_HEALTH_2 " <alarm> (Air_Quality_sensor_1) 
+
+Number AirQualitySensor_SensorCO2 "AirQualitySensor_SensorCO2 " <carbondioxide> (Air_Quality_sensor_2)
+String AIR_Quality_Sensor_CO2_1_time_stamp "AIR_Quality_Sensor_CO2_1_time_stamp "
+Number AirQualitySensor_SensorDewPoint "AirQualitySensor_SensorDewPoint " (Air_Quality_sensor_2)
+Number AirQualitySensor_SensorRelativeHumidity "AirQualitySensor_SensorRelativeHumidity " <humidity> (Air_Quality_sensor_2)
+Number AirQualitySensor_SensorTemperature "AirQualitySensor_SensorTemperature [%.2f °C]" <temperature> (Air_Quality_sensor_2)
+Number AirQualitySensor_SensorVOLATILE_ORGANIC_COMPOUND "AirQualitySensor_SensorVOLATILE_ORGANIC_COMPOUND " (Air_Quality_sensor_2)
+Switch AirQualitySensor_AlarmHOME_HEALTH "AirQualitySensor_AlarmHOME_HEALTH" <alarm> (Air_Quality_sensor_2)
+
+Number Enocean_Humidity_1 "Enocean_Humidity_1 [%.1f %%]" <humidity>
+Number Enocean_Temperature_1 "Enocean_Temperature_1 [%.2f °C]" <temperature> 
+
+Number Luminance_Sensor_Battery_1 "Luminance_Sensor_Battery_1" <battery> 
+Number Luminance_Sensor_Luminance_1 "Luminance_Sensor_Luminance_1" <light> 
+
+Number Luminance_Sensor_Battery_2 "Luminance_Sensor_Battery_2" <battery> 
+Number Luminance_Sensor_Luminance_2 "Luminance_Sensor_Luminance_2" <light> 
+
+Number Rain_Sensor_Precipitation_1 "Rain_Sensor_Precipitation_1 " <rain>
+Number Rain_Sensor_Water_Meter_1 "Rain_Sensor_Water_Meter_1 " <water>
+Number Rain_Sensor_Battery_1 "Rain_Sensor_Battery_1" <battery>
+
+Number Rain_Sensor_Precipitation_2 "Rain_Sensor_Precipitation_2" <rain>
+Number Rain_Sensor_Water_Meter_2 "Rain_Sensor_Water_Meter_2" <water>
+Number Rain_Sensor_Battery_2 "Rain_Sensor_Battery_2" <battery>
+
+Switch Ventilation_Flap_switch "Ventilation_Flap_switch" 
+Rollershutter Window_blinds "Window_blinds" 
+Rollershutter Slats_angle "Slats_angle" 
+Rollershutter Window_opening_angle "Window_opening_angle"
+
+Number wind_sensor_channel_0 "wind_sensor_channel_0"
+Number wind_sensor_channel_6 "wind_sensor_channel_6"
+Number wind_sensor_channel_7 "wind_sensor_channel_7"
+Number wind_sensor_channel_8 "wind_sensor_channel_8"
+Number wind_sensor_channel_9 "wind_sensor_channel_9"
+Number wind_sensor_power "wind_sensor_power"
+Number wind_sensor_energy "wind_sensor_energy"
+
+Number localCurrentApparentTemperature "localCurrentApparentTemperature [%.2f °C]" <temperature> 
+Number LocalForecastedApparentTemperature_3 "LocalForecastedApparentTemperature_3 [%.2f °C]" <temperature> 
+Number LocalForecastedApparentTemperature_6 "LocalForecastedApparentTemperature_6 [%.2f °C]" <temperature> 
+Number localCurrentHumidity "localCurrentHumidity [ %%]"
+Number LocalForecastedHumidity_3 "LocalForecastedHumidity_3 [ %%]"  
+Number LocalForecastedHumidity_6 "LocalForecastedHumidity_6 [ %%]" 
+Number LocalCurrent_Cloudiness "LocalCurrent_Cloudiness " 
+Number LocalForecastedCloudiness_3 "LocalForecastedCloudiness_3 "
+Number LocalForecastedCloudiness_6 "LocalForecastedCloudiness_6 " 
+Number LocalForecastedRain_6 "LocalForecastedRain_6 " 
+Number LocalForecastedRain_3 "LocalForecastedRain_3 "
+Number LocalForecastedSnow_3 "LocalForecastedSnow_3 " 
+Number LocalForecastedSnow_6 "LocalForecastedSnow_6 " 
+Number LocalCurrent_Rain "LocalCurrent_Rain " 
+Number LocalCurrent_Snow "LocalCurrent_Snow " 
+Number localCurrentUVIndex "localCurrentUVIndex "
+Number localCurrentTemperature "localCurrentTemperature " 
+Number LocalForecastedTemperature_3 "LocalForecastedTemperature_3 " 
+Number LocalForecastedTemperature_6 "LocalForecastedTemperature_6 " 
 
 
+Number Multisensor_outside_MotionAlarm "Multisensor_outside_MotionAlarm " 
+Number Multisensor_outside_SensorLuminance "Multisensor_outside_SensorLuminance " 
+Number Multisensor_outside_SensorRelativeHumidity "Multisensor_outside_SensorRelativeHumidity "
+Number Multisensor_outside_SensorTemperature "Multisensor_outside_SensorTemperature " 
+Number Multisensor_outside_SensorUltraviolet "Multisensor_outside_SensorUltraviolet " 
+Number Multisensor_outside_TamperAlarm "Multisensor_outside_TamperAlarm " 
 
+Number SensorLuminance "SensorLuminance " 
+Number SensorTemperature "SensorTemperature " 
+Number SensorUltraviolet "SensorUltraviolet "
+Number SensorRelativeHumidity "SensorRelativeHumidity " 
+Number MotionAlarm "MotionAlarm " 
+Number TamperAlarm "TamperAlarm " 
+
+Number WallPlugSwitch1_SensorPower_1 "WallPlugSwitch1_SensorPower_1 "
+Switch WallPlugSwitch1_Switch_1 "WallPlugSwitch1_Switch_1" <switch>
 
 
 
