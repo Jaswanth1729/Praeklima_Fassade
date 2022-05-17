@@ -2,10 +2,10 @@
 ![Fassade to Openhab data communication](images/fassade_flow_diagram.png)
 
 ## Fassade to Openhab communication has 3 main blocks 
-1. Casenio System: 
+1. **Casenio System:** 
 		Sensors and actuators are connected to this Casenio system via Z-wave and MQTT.
 		Casenio Systems uses MQTT to transmit data to HiveMQ cloud broker 
-2. Paho MQTT :
+2. **Paho MQTT :**
 		Using Paho_mqtt python library we create a client to HiveMQ MQTT cloud broker/server and publish/subscribe the sensors/actuators data.
 		
 	1. Sensors and Actuators data will be sent to Openhab server(running in Rasberry Pi) using Openhab Cloud's Rest-API. [python script ](https://github.com/Jaswanth1729/Praeklima_fassade/blob/main/Software_files/paho_mqtt.py)
@@ -16,7 +16,7 @@
 		2. If there is an issue with openhab: 'HTTP Openhab server exception occered' this error message will be printed. usally,  this happens due to lack of internet connectivity.
 		3. If there is an issue with casenio MQTT server: 'Paho MQTT will try to reconnect it. If it fails multiple times 'Connect returned result code XXX' will be printed.
 
-3. Openhab server:
+3. **Openhab server:**
 		We can control/visualize the sensors and actuator status using  Openhab's Habpanel/PaperUI. 	
 
 Email ID for Openhab cloud service, remote.it, open weather api, HiveMQ services are 
