@@ -11,6 +11,10 @@
 	1. Sensors and Actuators data will be sent to Openhab server(running in Rasberry Pi) using Openhab Cloud's Rest-API. [python script ](https://github.com/Jaswanth1729/Praeklima_fassade/blob/main/Software_files/paho_mqtt.py)
 		
 	2. Actuators can be controlled from Openhab using RestAPI. [python script ](https://github.com/Jaswanth1729/Praeklima_fassade/blob/main/Software_files/actuators_MQTT.py)
+	3. Any issues with Network connection between casenio and Openhab:
+		1. re-execute these scripts.
+		2. If there is an issue with openhab: 'HTTP Openhab server exception occered' this error message will be printed. usally,  this happens due to lack of internet connectivity.
+		3. If there is an issue with casenio MQTT server: 'Paho MQTT will try to reconnect it. If it fails multiple times 'Connect returned result code XXX' will be printed.
 
 3. Openhab server:
 		We can control/visualize the sensors and actuator status using  Openhab's Habpanel/PaperUI. 	
